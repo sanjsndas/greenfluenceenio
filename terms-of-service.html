@@ -1,0 +1,1666 @@
+
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Greenfluenceenio : Terms of Service (TOS)</title>
+        <meta property="og:title" content="Greenfluenceenio : Terms of Service (TOS)" />
+        <meta property="og:image" content="brand.svg"/>
+        
+        <meta property="og:description" content="Greenfluenceenio : Terms of Service (TOS)" />
+        <meta name="description" content="Greenfluenceenio : Terms of Service (TOS)" />
+        
+        <link rel="shortcut icon" href="brand.svg" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet" />
+
+        
+
+
+        <style>
+            body{
+
+                font-family: 'Play', sans-serif !important;
+                direction: ltr;
+                font-size: 1em;
+                margin: 0;
+            }
+
+            *, *::before, *::after {
+                box-sizing: border-box;
+            }
+
+            :root {
+                --blob-radius-1: 64% 36% 49% 51% / 52% 41% 59% 48%;
+                --blob-radius-2: 72% 28% 34% 66% / 60% 44% 56% 40%;
+                --blob-radius-3: 58% 42% 68% 32% / 38% 72% 28% 62%;
+                --blob-radius-4: 81% 19% 41% 59% / 66% 54% 46% 34%;
+                --blob-radius-5: 45% 55% 70% 30% / 25% 65% 35% 75%;
+            }
+
+
+
+            .space-frame {
+                max-width: 1200px;
+                padding-right: 18px;
+                padding-left: 18px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            .value-blink-section {
+                direction: initial;
+                width: 100%;
+                overflow: hidden;
+                background: #EF2143;
+                padding: 9px 0;
+                position: relative;
+            }
+
+            .value-blink-track {
+                display: flex;
+                width: fit-content;
+                animation: scroll-left 25s linear infinite;
+            }
+
+            .value-blink-content {
+                display: flex;
+            }
+
+            .value-blink {
+                margin: 0 40px;
+                font-size:  17px;
+                font-weight: 700;
+                color: #000;
+                white-space: nowrap;
+            }
+
+            @keyframes scroll-left {
+                0% {
+                    transform: translateX(0%);
+                }
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            .first-impress-sect {
+                overflow: hidden;
+            }
+
+            .first-impress-heder {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-color: #f0e4d7;
+            }
+
+            .fih-flex, .fih-logo, .fih-nav {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 9px;
+                text-decoration: none;
+                
+            }
+
+            .fih-flex {
+                justify-content: space-between;
+                padding-left: 18px;
+                padding-right: 18px;
+                width: 100%;
+            }
+
+            .fih-logo img {
+                width: 60px;
+                height: 60px;
+            }
+
+            .fih-logo h2 {
+                font-size: 20px;
+                font-weight: 700;
+                color: #000;
+                margin: 0;
+            }
+
+            .fih-nav a, .ezs-nav a {
+                font-size: 17px;
+                color: #000;
+                z-index: 10;
+                position: relative;
+                letter-spacing: 1px;
+                text-decoration: none;
+                width: fit-content;
+            }
+
+            .fih-nav a:hover, .ezs-nav a:hover {
+                color: #0A043C;
+            }            
+
+            .fih-nav a:after, .ezs-nav a:after {
+                content: '';
+                width: 0;
+                height: 1px;
+                background: #0A043C;
+                display: block;
+                margin: 1px 0 0 0;
+                line-height: 1px;
+                transition: all 0.3s ease 0s;
+            }
+
+            .fih-nav a:hover::after, .ezs-nav a:hover::after {
+                width: 100%;
+            }
+
+            .first-impress-banner {
+                overflow: hidden;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                position: relative;
+                z-index: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .fib-bg {
+                position: absolute;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                background-image: url('pics/hero-bg-1920x10800.jpg');
+                animation: kenburns-bottom 5s ease-out both infinite;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            @keyframes kenburns-bottom {
+                0% {
+                    transform: scale(1) translateY(0);
+                    transform-origin: 50% 84%;
+                }
+                100% {
+                    transform: scale(1.25) translateY(18px);
+                    transform-origin: bottom;
+                }
+            }
+
+            .fib-cloud {
+                width: fit-content;
+                height: fit-content;
+                max-width: 40%;
+                padding: 56px;
+                box-shadow: 0 8px 18px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+                border-radius: var(--blob-radius-5);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: #333;
+                opacity: 0.9;
+                transition: box-shadow 0.4s ease;
+                background: radial-gradient(circle at 50% 50%, #ffffff 0%, #EF2143 120%);
+            } 
+
+            .fib-name {
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: 0px;
+                text-transform: uppercase;
+                margin: 0;
+                margin-bottom: 9px;
+            }
+
+            .fib-txt {
+                font-size: 15px;
+                letter-spacing: 1px;
+                text-transform: lowercase;
+                margin: 0;
+                margin-bottom: 18px;
+            }
+            
+            .fib-title {
+                font-size: 20px;
+                margin: 0;
+                font-weight: 700;
+                text-align: center;
+                width: 80%;
+            }
+
+            .fib-name, .fib-title, .fib-txt {
+                animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            }
+
+            @keyframes text-focus-in {
+                0% {
+                    -webkit-filter: blur(15px);
+                            filter: blur(15px);
+                    opacity: 0;
+                }
+                100% {
+                    -webkit-filter: blur(0px);
+                            filter: blur(0px);
+                    opacity: 1;
+                }
+            }
+
+            .brand-story-section {
+                padding-top: 50px;
+                padding-bottom: 50px;
+                background-color: #f0e4d7;
+            }
+
+            .brand-story-title {
+                font-size: 46px;
+                font-weight: 700;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 27px;
+            }
+
+            .brand-story-flexbox {
+                display: flex;
+                flex-direction: row-reverse;
+                gap: 34px;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .brand-story-flexcol {
+                width: 28%;
+                display: flex;
+                flex-direction: column;
+                gap:  21px;
+                align-items: center;
+            }
+
+            .brand-benefits {
+                display: none;
+            }
+
+            .bsf-img {
+                width: 80%;
+                position: relative;
+            }
+
+            .bsf-img img {
+                width: 100%;
+                height: 271px;
+                object-fit: cover; 
+                z-index: 1;
+                position: relative; 
+                border-radius: var(--blob-radius-2);
+            }
+
+            .brand-story-flexcol:nth-child(2) {
+                width: 48%;
+            }
+
+            .brand-story-flexcol:nth-child(2) .bsf-img {
+                width: 100%;
+            }
+
+            .brand-story-flexcol:nth-child(2) .bsf-img img {
+                border-radius: var(--blob-radius-5);
+            }
+
+            .bsf-img::before {
+                content: "";
+                width: 123px;
+                height: 123px;
+                background: #EF2143;
+                border-radius: var(--blob-radius-5);
+                position: absolute;
+                left: 0;
+                top: 15px;
+            }
+
+            .bsf-img::after {
+                content: "";
+                width: 123px;
+                height: 123px;
+                background: #EF2143;
+                border-radius: var(--blob-radius-5);
+                position: absolute;
+                right: 0;
+                left: auto;
+                bottom: 15px;
+            }
+
+
+            .bsf-txt {
+                font-size: 15px;
+                line-height: 1.5;
+            }
+
+            .brand-story-flexcol:nth-child(2) .bsf-img::before {
+                content: "";
+                width: 249px;
+                height: 123px;
+                background: #EF2143;
+                border-radius: var(--blob-radius-5);
+                position: absolute;
+                left: auto;
+                right: 0;
+                top: 0px;
+            } 
+
+            .brand-story-flexcol:nth-child(2) .bsf-img::after {
+                content: "";
+                width: 249px;
+                height: 123px;
+                background: #EF2143;
+                border-radius: var(--blob-radius-5);
+                position: absolute;
+                left: 0;
+                bottom: 0px;
+            } 
+
+            .bsf-txt span {
+                color: #EF2143;
+            }
+
+            .brand-story-flexcol:nth-child(2) .bsf-txt {
+                font-size: 17px;
+            }
+
+            .product-display-bg {
+                background-image: url('pics/hero-bg-1920x10801.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;  
+                z-index: 0;  
+            }
+
+            .product-display-bgfilter {
+                position: absolute;
+                inset: 0;
+                backdrop-filter: blur(18px);
+                -webkit-backdrop-filter: blur(18px); 
+                background-color: rgba(255, 255, 255, 0.3); 
+                z-index: 1;
+            }
+
+            .space-frame.product-display {
+                position: relative;
+                z-index: 2;
+                padding: 27px;
+                color: #000; 
+            }
+
+            .product-display-title {
+                font-size: 46px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                margin: 0;
+                margin-bottom: 56px;
+                text-align: center;
+                color: #000;
+            }
+
+            .prds-media {
+                width: 50%;
+                float: right;
+                margin: 0 18px 18px;
+                display: flex;
+                flex-direction: column;
+                gap: 21px;
+            }
+
+            .prds-img {
+                width: 100%;
+                height: 343px;  
+                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+                border-radius: 20px;      
+                padding: 27px;
+                background: radial-gradient(circle at 50% 50%, #ffffff84 0%, #EF214384 120%);
+            }
+
+            .prds-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+            .prds-info {
+                display: flex;
+                flex-direction: column;
+                gap: 27px;
+            }
+            
+            .prds-price-box {
+                display: flex;
+                gap: 18px;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .old-price {
+                font-size: 17px;
+                color: #434343;
+                padding: 18px  9px;
+                border-radius: 20px;
+                border: 1px solid #434343;
+                text-decoration: line-through;
+                opacity: 1;
+                animation: fadeCycle 7s ease-in-out infinite;
+            }
+
+            .new-price {
+                font-size: 20px;
+                color: #fff;
+                padding: 18px  9px;
+                border-radius: 20px;
+                font-weight: 700;
+                animation: popIn 1s ease-in-out 2s forwards;
+                opacity: 0;
+                transform: scale(0.8);
+                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+                background: radial-gradient(circle at 50% 50%, #ffffff84 0%, #EF214384 120%);
+            }
+
+            @keyframes fadeCycle {
+                0% { opacity: 1; transform: translateY(0); }
+                42% { opacity: 1; }       
+                60% { opacity: 0; transform: translateY(-10px); }
+                100% { opacity: 0; transform: translateY(-10px); }
+            }
+
+            @keyframes popIn {
+                to {
+                opacity: 1;
+                transform: scale(1);
+                }
+            }
+
+            .prds-prod-view, .prds-prod-aviable, .prds-prod-code {
+                font-size: 15px;
+                font-weight: 700;
+                display: flex;
+                gap: 9px;
+                align-items: center;
+                color: #fff;
+                width: fit-content;
+                padding: 9px 40px;
+                border-radius: 20px;
+                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+                background: radial-gradient(circle at 50% 50%, #ffffff84 0%, #EF214384 120%);   
+            }
+
+            .prds-prod-aviable, .prds-prod-code {
+                margin-left: auto;
+            }
+
+            .prds-prod-view svg, .prds-prod-aviable svg, .prds-prod-code svg {
+                fill: #fff;
+                width: 31pxpx;
+                height: 31pxpx;
+            }
+
+            .prds-btn {
+                display: flex;
+                justify-content: center;
+            }
+
+            .prds-pay-box {
+                display: flex;
+                flex-direction: row;
+                gap: 21px;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .prds-pay-box img {
+                width: 123px;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .prds-prod-desc {
+                font-size: 15px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin: 0;
+                margin-bottom:  18px;
+            }
+
+            .prds-txt {
+                font-size: 15px;
+                line-height: 1.5;
+                color: #000;
+                margin-bottom:  18px;
+            }
+
+            .prds-glass-form {
+                width: 80%;
+                align-items: center;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 27px;
+                justify-content: center;
+                margin: 27px auto;
+                gap: 15px;
+                padding: 27px;
+                border-radius: 20px;
+                background: radial-gradient(circle at 50% 50%, #ffffff26 0%, #EF214351 120%);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border: 1px solid rgba(255,255,255,0.25);
+                box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+                color: white;
+            }
+
+            .prds-glass-form > * {
+                flex: 1 1 45%;
+                min-width: 220px;
+            }
+
+            .prds-glass-form label {
+                font-weight: 700;
+                color: white;
+            }
+
+            .input-group__group_input {
+                padding: 9px 15px;
+                border: 1px solid rgba(255,255,255,0.3);
+                border-radius: 8px;
+                background: rgba(255,255,255,0.1);
+                color: #000;
+                font-size: 17px;
+                backdrop-filter: blur(4px);
+                transition: border-color 0.3s ease;
+            }
+
+            .input-group__group_input::placeholder {
+                color: rgba(255,255,255,0.7);
+            }
+
+            .input-group__group_input:focus {
+                border-color: #EF2143;
+                outline: none;
+            }
+ 
+            .textarea-group__group_input {
+                padding: 9px 15px;
+                border: 1px solid rgba(255,255,255,0.3);
+                border-radius: 8px;
+                background: rgba(255,255,255,0.1);
+                color: #000;
+                font-size: 17px;
+                backdrop-filter: blur(4px);
+                transition: border-color 0.3s ease;
+            }
+
+            .textarea-group__group_input::placeholder {
+                color: rgba(255,255,255,0.7);
+            }
+
+            .textarea-group__group_input:focus {
+                border-color: #EF2143;
+                outline: none;
+            }
+
+            .glass-form .pg-form-check,
+            .glass-form button,
+            .glass-form .btn-style {
+                flex-basis: 100%;
+                min-width: 0;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+            }
+
+            .pg-form-check {
+                display: flex;
+                align-items: center;
+                gap: 9px;
+                color: white;
+            }
+
+            .pg-form-check input {
+                width: 31pxpx;
+                height: 31pxpx;
+                accent-color: #EF2143;
+            }
+              .pg-form-check textarea {
+                width: 31pxpx;
+                height: 31pxpx;
+                accent-color: #EF2143;
+            }
+            .pg-form-check label {
+                font-size: 17px;
+                color: white;
+            }
+
+            .pg-form-check label a {
+                color: white;
+                text-decoration: underline;
+            }
+
+            .pg-form-check label a:hover {
+                color: #EF2143;
+            }
+ 
+
+            .real-rewiews-section {
+                padding: 50px 0;
+                background-color: #f0e4d7;
+            }
+
+            .real-rewiews-title {
+                font-size: 46px;
+                font-weight: 700;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 34px;
+            } 
+            
+            .real-rewiews-flexbox {
+                display: flex;
+                flex-direction: row;
+                gap: 34px;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .real-rewiews-media {
+                width: 45%;
+                float: left;
+                display: block;
+                border-radius: 20px;
+                background-image: url('pics/icon-DPr-0.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .real-rewiews-img:nth-child(1) {
+                width: 45%;
+                height: 220px;
+                object-fit: cover;
+                margin-top: -18px;
+                margin-left: -18px;
+                margin-right: auto;  
+                background-color: #f0e4d7;
+                border-right: 18px solid #f0e4d7;        
+                border-bottom: 18px solid #f0e4d7;
+                border-radius: 20px 20px 20px 20px;  
+            }
+
+            .real-rewiews-img:nth-child(2) {
+                width: 45%;
+                height: 220px;
+                object-fit: cover;
+                border-radius: 20px;
+                margin-left: auto;  
+                margin-bottom: -18px;
+                margin-right: -18px;
+                background-color: #f0e4d7;  
+                border-left: 18px solid #f0e4d7;  
+                border-top: 18px solid #f0e4d7;    
+                border-radius: 20px 20px 20px 20px;       
+            }
+
+            .real-rewiews-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+
+            .real-rewiews-list {
+                width: 45%;
+                float: left;
+                display: flex;
+                flex-direction: column;
+                gap: 34px;
+            }
+
+            .real-rewiews-item {
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+                position: relative;
+                background-color: #ffffff;
+                padding: 21px 18px;
+                border-radius: 25px;
+            }
+
+            .real-rewiews-item::before {
+                content: "";
+                position: absolute;
+                top: - 56px;
+                left: 0;
+                height: 80px;
+                width: 70px;
+                transform: rotate(180deg);
+                background: #ffffff;
+                clip-path: path("M0 0H79.9695V76.3123C80.0103 77.5714 80.0101 78.8022 79.9695 80V76.3123C79.0054 46.5602 55.1443 0.959397 0 0Z");
+            }
+
+            .rri-rating {
+                display: flex;
+                gap: 5px;
+                justify-content: center;
+                align-items: center;
+                font-size: 40px;
+                font-weight: 700;
+                color: #EF2143;
+            }
+
+            .rri-rating svg {
+                width: 45px;
+                height: 45px;
+                fill: #EF2143;
+            }
+
+            .rri-comment {
+                font-size: 15px;
+                font-style: italic;
+                line-height: 1.5;
+                text-align: center;
+                color: #000;
+            }
+
+            .rri-author {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .rri-author img {
+                width: 60px;
+                height: 60px;;
+                border-radius: 100%;
+                object-fit: cover;
+            }
+
+            .rri-name {
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            .rri-author svg {
+                width: 45px;
+                height: 45px;
+                fill: #EF2143;
+            }
+
+            .purchase-map-bg {
+                position: relative;
+                z-index: 0;
+                background-color: #EF2143;
+                padding: 50px 0;
+            }
+
+            .purchase-map-bg img {
+                position: absolute;
+                top: 10%;
+                left: 3%;
+                z-index: 1;
+                width: fit-content;
+                height: 300px;
+                object-fit: contain;
+            }
+
+            .purchase-map-title {
+                font-size: 46px;
+                font-weight: 700;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 40px;
+                color: #000;
+            }
+
+            .purchase-map-list {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 27px;
+            }
+
+            .purchase-map-item {
+                width: 30%;
+                padding: 27px 18px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+            }
+
+            .purchase-map-item:hover {
+                background-color: #4343437f;
+                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
+            }
+
+            .pm-inner {
+                display: flex;
+                flex-direction: row;
+                gap: 9px;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .pm-num span {
+                font-size: 28px;
+                font-weight: 700;
+                color: #00000080;
+            }
+
+            .pm-arrow {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 9px;
+            }
+
+            .pm-arrow svg {
+                width: 31pxpx;
+                height: 31pxpx;
+                fill: #000;
+            }
+
+            .pm-icon {
+                width: 60px;
+                height: 60px;
+                fill: #000;
+                border-radius: 50%;
+                border: 1px solid #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .pm-icon svg {
+                width: 45px;
+                height: 45px;
+            }
+
+            .pm-title {
+                font-size: 20px;
+                font-weight: 700;
+                color: #000;
+                margin: 0;
+            }
+
+            .pm-txt {
+                font-size: 15px;
+                color: #000;
+                margin: 0;
+                margin-top: 9px;
+            }
+
+            .purchase-map-item:hover .pm-title {
+                color: #EF2143;
+            }
+
+            .need-to-know-sect {
+                padding: 50px 0;
+                background-color: #f0e4d7;
+            }
+
+            .need-to-know-flexbox {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 34px;
+            }
+
+            .ntk-worktime {
+                width: 45%;
+                height: 617px;
+                position: relative;
+                z-index: 0;
+            }
+            
+            .ntk-worktime-img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+                border-radius: var(--blob-radius-1);
+            }       
+            .ntk-worktime-img-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: var(--blob-radius-1);
+            }
+
+            .ntk-worktime-txt {
+                padding: 40px;
+                background-color: #EF2143;
+                border-radius: var(--blob-radius-5);
+                position: absolute; 
+                bottom: -40px;
+                left: auto;
+                right: -40px;
+                z-index: 3;
+            }
+
+            .ntk-worktime-txt h4 {
+                font-size: 28px;
+                font-weight: 700;
+                color: #fff;
+                margin: 0;
+                margin-bottom: 18px;
+            }
+            .ntk-worktime-txt p {
+                font-size: 17px;
+                color: #fff;
+                margin: 0;
+                line-height: 1.5;
+            }
+
+            .ntk-content {
+                width: 48%;
+            }
+
+            .ntk-content h2 {
+                font-size: 28px;
+                font-weight: 700;
+                color: #000;
+                margin: 0;
+                margin-bottom: 34px;
+            }
+
+           .ntk-faq-accordion {
+            margin: 35px auto;
+                border-radius: 20px;
+                background: #fff;
+                box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+                padding: 18px;
+            max-width: 800px;
+        }
+            
+        .ntk-faq-item {
+           margin-bottom: 15px;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 9px;
+        }
+        
+        .ntk-faq-item input[type="checkbox"] {
+            display: none;
+        }
+            
+        .ntk-faq-question {
+           display: block;
+                font-weight: 700;
+                font-size: 17px;
+                cursor: pointer;
+                padding: 15px 0;
+            color: #333;
+            transition: color 0.3s ease;
+            position: relative;
+            
+            padding-right: 30px;
+        }
+
+        
+        .ntk-faq-question::after {
+            content: '▼';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease;
+            font-size: 14px;
+            color: #666;
+        }
+            
+        .ntk-faq-item input[type="checkbox"]:checked + .ntk-faq-question {
+            color: #EF2143;
+        }
+
+        .ntk-faq-item input[type="checkbox"]:checked + .ntk-faq-question::after {
+            transform: translateY(-50%) rotate(180deg);
+            color: #EF2143;
+        }
+            
+      
+        .ntk-faq-answer {
+            max-height: 0;
+            overflow: hidden;
+           
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                       padding 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                       opacity 0.3s ease;
+            font-size: {font-size-normal};
+            color: #444;
+              padding-left: 9px;
+            opacity: 0;
+            line-height: 1.6;
+        }
+        
+        .ntk-faq-item input[type="checkbox"]:checked ~ .ntk-faq-answer {
+           
+            max-height: 500px;
+            padding:  9px 0 9px 9px;
+            opacity: 1;
+        }
+
+  
+        .ntk-faq-question:hover {
+            color: #EF2143;
+        }
+
+        .ntk-faq-question:hover::after {
+            color: #EF2143;
+        }
+
+      
+        .ntk-faq-answer p {
+            margin: 0 0 12px 0;
+        }
+
+        .ntk-faq-answer p:last-child {
+            margin-bottom: 0;
+        }
+
+            .endzone-section-bg {
+                background-color: #EF2143;
+            }
+
+            .endzone-section-bgoverlay {
+                background-image: url('pics/light-overlay-1600x9000.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 50px 0 40px 0;
+            }
+
+            .endzone-section {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
+            }
+
+            .ezs-flexcol {
+                width: 32%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 27px;
+            }
+
+            .ezs-nav-title {
+                font-size: 20px;
+                font-weight: 700;
+                color: #000;
+                margin: 0;
+            }
+
+            .ezs-logo-box {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .ezs-logo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 9px;
+                text-decoration: none;
+            }
+
+            .ezs-logo img {
+                width: 45px;
+                height: 45px;
+            }       
+
+            .ezs-logo h2 {
+                font-size: 20px;
+                font-weight: 700;
+                color: #000;
+                margin: 0;
+            }
+            
+            .ezs-trust-client-title {
+                font-size: 20px;
+                font-weight: 700;
+                color: #000;
+                margin: 0;
+                margin-bottom: 18px;
+                text-align: center;
+            }
+
+            .ezs-trust-client-txt {
+                font-size: 15px;
+                color: #000;
+                margin: 18px 0;
+                text-align: center;
+            }
+
+            .ezs-contact-list {
+                gap: 15px;
+                flex-direction: column;
+            }
+            
+            .ezs-contact-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 9px;
+                color: #000;
+            }
+            .ezs-contact-item h4 {
+                text-align: center;
+                font-size: 17px;
+                font-weight: 700;
+                margin: 0;
+                word-break: break-all;
+            }   
+
+            .ezs-contact-item p, .ezs-contact-item a {
+                text-align: center;
+                font-size: 15px;
+                color: #000;
+                margin: 0;
+                text-decoration: none;
+                word-break: break-all;
+            }
+            .ezs-contact-item a:hover {
+                text-decoration: underline;
+            }
+
+            .prod-policy {
+                padding: 50px 0;
+                overflow: hidden;
+                word-break: break-all;
+            }
+
+
+        
+
+
+            .btn-style {
+                padding: 15px 30px;
+                border: none;
+                font-weight: 700;
+                font-size: 17px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .button-1 {
+                background: black;
+                color:  #ffffff;
+                border-radius: 5px;
+            }
+
+            .button-1:hover {
+                background:  #ffffff;
+                color: black;
+                border: 2px solid black;
+            }
+
+            .button-2 {
+                background:  #ffffff;
+                color: black;
+                border: 1px solid #ccc;
+                border-radius: 15px;
+                text-transform: uppercase;
+                box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+            }
+
+            .button-2:hover {
+                transform: translateY(-2px);
+                box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+            }
+
+            .button-3 {
+                background: #EF2143;
+                color:  #ffffff;
+            }
+
+            .button-3:hover {
+                background: #EF2143cf;
+            }
+
+            .button-4 {
+                background: #f1f1f1;
+                color: black;
+                border-radius: 50px;
+            }
+
+            .button-4:hover {
+                background: #EF2143;
+                color:  #ffffff;
+                text-transform: uppercase;
+            }
+
+            .button-5 {
+                background: #EF2143;
+                color:  #ffffff;
+                transform: scale(1);
+                border-radius: 6px;
+            }
+
+            .button-5:hover {
+                transform: scale(1.05);
+            }
+
+@media (max-width: 1650px) {
+
+    .purchase-map-bg img {
+        top: -15%;
+        height: 220px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .grid-shell {
+        max-width: 1140px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .fih-flex, .fih-logo, .fih-nav {
+        justify-content: center;
+        align-items: center;
+    }
+    .fih-flex {
+        justify-content: center !important;
+    }
+    .grid-shell {
+        max-width: 960px;
+    }
+
+    .fib-cloud {
+        width: 65%;
+        max-width: 65%;
+    }
+
+}
+
+@media(max-width: 767px)  {
+
+    .grid-shell {
+        max-width: 720px;
+    }
+
+    .fih-flex {
+        flex-wrap: wrap;
+    }
+
+    .fib-cloud {
+        width: 95%;
+        max-width: 95%;
+    }
+
+    .brand-benefits {
+        display: none;
+    }
+
+    .prds-media {
+        float: none;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .brand-story {
+        flex-direction: column !important;
+    }
+
+    .prds-glass-form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .purchase-map-list {
+        flex-direction: column;
+    }
+
+    .real-rewiews-media {
+        display: none;
+    }
+
+    .real-rewiews-list {
+        flex-direction: column !important;
+    }
+
+    .purchase-map-item {
+        width: 100%;
+        background-color: #4343437f;
+        box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .purchase-map-bg img {
+        display: none;
+    }
+
+    .need-to-know-flexbox {
+        flex-direction: column !important;
+    }
+
+    .ntk-worktime-txt {
+        width: 85%;
+    }
+
+    .endzone-section {
+        flex-direction: column;
+    }
+
+    .ezs-flexcol {
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+@media(max-width: 576px) {
+
+    .grid-shell {
+        max-width: 540px;
+    }
+
+    .fib-cloud {
+        max-width: 99%;
+        width: 99%;
+        border-radius: 30px;
+        padding: 25px;
+    }
+
+    .fih-nav a {
+        font-size: 14px;
+    }
+
+}
+
+ 
+        </style>
+            
+        </head>
+
+        <body>
+            
+            
+
+            <header>
+                <section class="value-blink-section">
+                    <div class="value-blink-track">
+                        <div class="value-blink-content" id="vlblContent">
+                            <span class="value-blink">Greenfluenceenio</span>
+                            <span class="value-blink">Greenfluenceenio</span>
+                            <span class="value-blink">Greenfluenceenio</span>
+                            <span class="value-blink">Greenfluenceenio</span>
+                            <span class="value-blink">Greenfluenceenio</span>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="first-impress-sect">
+                    <div class="first-impress-heder">
+                        <div class="fih-flex">
+                            <a class="fih-logo" href="./">
+                                <img src="brand.svg" alt="">
+                                <h2> Greenfluenceenio </h2>
+                            </a>
+                            <nav class="fih-nav">
+                                <a href="./#about"> About us </a>
+                                
+                                <a href="./#comm">Comments</a>
+                                
+                                  
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="first-impress-banner">
+                        <div class="fib-bg"></div>
+                        <div class="fib-cloud">
+                            <h2 class="fib-name"> Greenfluenceenio </h2>
+                            <span class="fib-txt">Health Starts Here: Our Food Is Your Source of Strength</span>
+                            <h1 class="fib-title"> Welcome to Greenfluenceenio, your trusted partner in healthy nutrition. We combine balanced food choices, reliable nutritional information, and innovative products designed to support a well-organized diet. Explore our site to discover how modern approaches to healthy eating can improve your lifestyle with transparency and consistency.</h1>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </header>
+
+            
+
+<div class="space-frame" >
+    <div class="prod-policy">
+        <div class="policy-container">
+  <section id="introduction" class="policy-section-block">
+    <h2 class="section-box-heading">Introduction to Our Policies</h2>
+    <p class="section-block-text">
+      Welcome to the digital platform operated by Greenfluenceenio. Your access to and utilization of this website and the services it offers signify your unconditional acceptance of the following Terms of Service and Privacy Policy, collectively termed the "User Agreement." This comprehensive agreement aims to delineate your rights and our operational commitments and procedures. We urge you to review this document thoroughly. Should you find any provision unacceptable, we advise against using our website or services.
+    </p>
+    <p class="section-container-text">
+      This document was last revised on 05-17-2026 and represents the full understanding between you and Greenfluenceenio pertaining to your engagement with our online presence and offerings. We are dedicated to upholding the highest ethical and legal benchmarks in managing personal data. Our practices are meticulously designed to align with pertinent privacy legislation, specifically the California Consumer Privacy Act (CCPA), which governs the protection of individual data and privacy.
+    </p>
+  </section>
+
+  <section id="acceptance" class="policy-section-box">
+    <h2 class="section-box-heading">Agreement to Terms</h2>
+    <p class="section-box-text">
+      By interacting with any part of our site or employing any of our provided services, you explicitly consent to the stipulations detailed within this User Agreement. This includes your agreement to the gathering, processing, and application of your personal information in congruence with the guidelines established herein and our internal protocols. If any clause of this agreement is determined to be invalid or unenforceable by a court of competent jurisdiction, the remaining clauses shall retain their full legal force and effect.
+    </p>
+  </section>
+
+  <section id="user-eligibility" class="policy-section-box">
+    <h2 class="section-container-heading">Eligibility and Account Security</h2>
+    <p class="section-box-text">
+      Access to and use of Greenfluenceenio's website and services are restricted to individuals who are at least 18 years old, or to those who have obtained the necessary legal consent from a parent or guardian. By proceeding with our services, you affirm that you satisfy these age or consent criteria.
+    </p>
+    <p class="section-wrap-text">
+      Should you opt to establish an account with us, you are required to furnish accurate, complete, and current information. You bear sole responsibility for safeguarding the confidentiality of your account credentials and for all activities conducted under your account. In the event of any unauthorized access or a suspected security compromise, you must notify us immediately so that appropriate measures can be promptly initiated to secure your data.
+    </p>
+  </section>
+
+  <section id="service-usage" class="policy-section-block">
+    <h2 class="section-wrap-heading">Service Access and Permitted Use</h2>
+    <p class="section-block-text">
+      Greenfluenceenio grants you a limited, non-assignable, and non-exclusive authorization to access and use our services strictly in accordance with the terms of this User Agreement. You commit not to employ our services for any illegal, deceptive, or harmful purposes. Any unauthorized access or utilization may lead to the immediate termination of your account and, if deemed appropriate, legal proceedings.
+    </p>
+    <p class="section-container-text">
+      Furthermore, you are expressly prohibited from: (a) attempting to obstruct or circumvent the security mechanisms of the website, (b) reverse engineering or deconstructing any proprietary software owned by us, and (c) employing any automated tools to monitor or replicate content from our website without our explicit written permission.
+    </p>
+  </section>
+
+  <section id="user-content" class="policy-section-container">
+    <h2 class="section-wrap-heading">User-Provided Content and Intellectual Property Rights</h2>
+    <p class="section-container-text">
+      Any materials, including but not confined to text, imagery, videos, or other data, that you upload, submit, or transmit via our website (referred to as “User Content”) remain your exclusive property. Nevertheless, by voluntarily submitting such content, you confer upon Greenfluenceenio a worldwide, perpetual, royalty-free, and irrevocable license to utilize, reproduce, modify, and publicly display your content solely in connection with the operation and promotion of our services.
+    </p>
+    <p class="section-box-text">
+      All original content featured on this website by Greenfluenceenio, encompassing design elements and textual information, is safeguarded by intellectual property statutes and remains the sole ownership of Greenfluenceenio or its respective licensors. You agree not to reproduce, duplicate, copy, sell, or exploit any segment of the site without first securing our written authorization.
+    </p>
+  </section>
+
+  <section id="privacy-practices" class="policy-section-wrap">
+    <h2 class="section-box-heading">Our Commitment to Privacy and Data Protection</h2>
+    <p class="section-box-text">
+      Your privacy holds utmost importance for us. Greenfluenceenio is dedicated to securing your personal information through the deployment of robust administrative, technical, and physical protective measures. In adherence to relevant legal frameworks, such as the California Consumer Privacy Act, our methodologies for collecting, utilizing, storing, and disclosing your information are founded on principles of transparency and security.
+    </p>
+    <p class="section-block-text">
+      This Privacy Policy encompasses data gathered both directly from you and automatically through various methods. It details the categories of personal data processed, the objectives for such processing, the durations for data retention, and the specific rights you possess concerning your data.
+    </p>
+  </section>
+
+  <section id="information-collection" class="policy-section-wrap">
+    <h2 class="section-wrap-heading">Categories of Information We Collect</h2>
+    <p class="section-container-text">
+      When you engage with our services, we may gather several types of information, including:
+    </p>
+    <ul class="information-list">
+      <li class="information-item">Personal identifiers (e.g., your full name, email address, and account login details);</li>
+      <li class="information-item">Engagement data, outlining your interactions with our platform, pages visited, and timestamps of activity;</li>
+      <li class="information-item">Technical details, such as your device type, web browser version, and Internet Protocol (IP) address.</li>
+    </ul>
+    <p class="section-wrap-text">
+      This collected data enables us to refine your user experience, enhance our service offerings, and facilitate more effective communication. We guarantee that all data collected is stored securely and processed exclusively for legitimate operational requirements.
+    </p>
+  </section>
+
+  <section id="data-usage" class="policy-section-wrap">
+    <h2 class="section-block-heading">How We Utilize Your Data</h2>
+    <p class="section-wrap-text">
+      The information we acquire serves the following purposes:
+    </p>
+    <ul class="information-list">
+      <li class="information-item">To deliver, customize, and improve our services;</li>
+      <li class="information-item">To conduct analytical studies and research aimed at boosting overall performance and service excellence;</li>
+      <li class="information-item">To dispatch crucial system and security alerts;</li>
+      <li class="information-item">To address your queries and provide comprehensive customer assistance;</li>
+      <li class="information-item">To fulfill legal mandates and enforce our terms and policies.</li>
+    </ul>
+    <p class="section-block-text">
+      Beyond these applications, your data might be rendered anonymous and compiled for statistical or analytical objectives, ensuring the removal of all personal identifying elements in such scenarios.
+    </p>
+  </section>
+
+  <section id="legal-bases" class="policy-section-container">
+    <h2 class="section-container-heading">Lawful Grounds for Processing Personal Information</h2>
+    <p class="section-box-text">
+      Greenfluenceenio processes your personal information on a lawful basis, ensuring that such processing is essential for fulfilling a contractual agreement, adhering to a legal obligation, safeguarding vital interests, or pursuing a legitimate interest. In accordance with the California Consumer Privacy Act, you are entitled to understand the legal foundations upon which we process personal data and to exercise your rights concerning your personal information.
+    </p>
+  </section>
+
+  <section id="data-sharing" class="policy-section-container">
+    <h2 class="section-box-heading">Sharing and Disclosure of Your Personal Details</h2>
+    <p class="section-wrap-text">
+      Your personal information may be shared with the following entities:
+    </p>
+    <ul class="information-list">
+      <li class="information-item">Third-party service providers who support the operation and administration of our website and services;</li>
+      <li class="information-item">Governmental and regulatory bodies when legally mandated or necessary to safeguard the rights, assets, or security of Greenfluenceenio, our users, or other parties;</li>
+      <li class="information-item">Collaborating business partners with whom we may cooperate to enhance the delivery of services.</li>
+    </ul>
+    <p class="section-block-text">
+      In all such instances, data sharing is strictly managed by rigorous confidentiality agreements and contractual protective measures. We assure you that your data is never commercialized or sold to external parties for marketing purposes.
+    </p>
+  </section>
+
+  <section id="data-retention" class="policy-section-wrap">
+    <h2 class="section-box-heading">Data Retention Periods and Security Measures</h2>
+    <p class="section-container-text">
+      Greenfluenceenio will retain your personal information only for the duration necessary to accomplish the purposes for which it was originally collected, consistent with our legal responsibilities. Following this period, the data will be either securely erased or de-identified. Our data storage and retention protocols adhere to prevailing industry standards, guaranteeing that your data is protected against unauthorized access or security breaches.
+    </p>
+  </section>
+
+  <section id="your-privacy-rights" class="policy-section-wrap">
+    <h2 class="section-box-heading">Your Individual Rights Regarding Personal Data</h2>
+    <p class="section-container-text">
+      You possess the right to request access to, correction of, or deletion of your personal data held by Greenfluenceenio. Furthermore, you may have the right to restrict the processing of your data, object to specific uses, or request data portability. Should you wish to exercise any of these rights, please follow the designated procedure detailed in our internal policy documentation.
+    </p>
+    <p class="section-block-text">
+      We endeavor to respond to such requests promptly and in compliance with our legal obligations, striving to ensure a streamlined process for appropriate data management.
+    </p>
+  </section>
+
+  <section id="limitation-of-liability" class="policy-section-box">
+    <h2 class="section-box-heading">Limitation of Our Liability and Disclaimers</h2>
+    <p class="section-wrap-text">
+      To the maximum extent permissible by law, Greenfluenceenio disclaims all liability for any indirect, incidental, consequential, or punitive damages arising from your engagement with our services or any inability to use them, including, but not limited to, loss of data or anticipated profits, even if we have been apprised of the potential for such damages.
+    </p>
+    <p class="section-container-text">
+      Moreover, all information, content, and materials presented on our website are provided on an “as is” basis, without any warranties, whether explicit or implicit. Greenfluenceenio explicitly repudiates any assurances regarding the dependability or precision of the information furnished.
+    </p>
+  </section>
+
+  <section id="indemnification" class="policy-section-box">
+    <h2 class="section-container-heading">Indemnification Clause</h2>
+    <p class="section-block-text">
+      You agree to defend, indemnify, and hold harmless Greenfluenceenio, along with its executives, board members, employees, and representatives, from and against all claims, losses, liabilities, damages, expenses, and costs (including reasonable legal fees) that arise from or are connected to your access or use of our website, any breach of this User Agreement, or any infringement of intellectual property or other rights belonging to any individual or entity.
+    </p>
+  </section>
+
+  <section id="governing-law" class="policy-section-box">
+    <h2 class="section-wrap-heading">Applicable Law and Resolution of Disputes</h2>
+    <p class="section-block-text">
+      This User Agreement shall be interpreted and enforced in accordance with the legal statutes applicable within the jurisdiction where our operations are situated. Any disagreements stemming from or pertaining to this agreement will be resolved exclusively either through binding arbitration or in a court of competent jurisdiction, as determined solely by Greenfluenceenio.
+    </p>
+    <p class="section-container-text">
+      By persistently accessing and utilizing our services, you grant your consent to the jurisdiction and selected venue of such judicial or arbitral bodies.
+    </p>
+  </section>
+
+  <section id="modifications" class="policy-section-container">
+    <h2 class="section-block-heading">Revisions to This Agreement</h2>
+    <p class="section-wrap-text">
+      Greenfluenceenio retains the prerogative to alter, update, or revise this User Agreement at any time without prior notification. All such modifications will become effective immediately upon their publication on the website. Your continued engagement with our services subsequent to any alterations signifies your acceptance of and consent to the revised terms. It is incumbent upon you to periodically review this document to remain informed of any changes.
+    </p>
+  </section>
+
+  <section id="contact" class="policy-section-box">
+    <h2 class="section-container-heading">Concluding Provisions</h2>
+    <p class="section-wrap-text">
+      This User Agreement, inclusive of all sections referenced herein, constitutes the complete and exclusive understanding between you and Greenfluenceenio concerning your use of our website and services. Any failure on our part to enforce a particular provision of this Agreement shall not be construed as a waiver of our right to subsequently enforce that or any other provision.
+    </p>
+    <p class="section-wrap-text">
+      Should you have any inquiries, feedback, or concerns regarding this Agreement or our privacy practices, please refer to our internal guidelines for the appropriate procedure to submit your questions or requests. We are committed to addressing all concerns with fairness and expediency.
+    </p>
+    <p class="section-container-text">
+      We appreciate your decision to choose Greenfluenceenio. We highly value your confidence and are dedicated to serving you with transparency and integrity in every facet of our service delivery.
+    </p>
+  </section>
+</div>
+    </div>
+</div>
+
+
+
+            <footer>
+                <div class="endzone-section-bg">
+                    <div class="endzone-section-bgoverlay">
+                        <div class="space-frame endzone-section">
+                            <div class="ezs-flexcol ezs-nav">
+                                <h4 class="ezs-nav-title">Navigation</h4>
+                                <a class="ezs-nav-link" href="privacyPolicy.html" target="_blank">Privacy policy</a>
+                                <a class="ezs-nav-link" href="terms-of-service.html" target="_blank">Terms & Conditions</a>
+                                <a class="ezs-nav-link" href="disclaimer.html" target="_blank">Disclaimer</a>
+                            </div>
+                            <div class="ezs-flexcol ezs-logo-box">
+                                <a class="ezs-logo" href="./">
+                                    <img  src="brand.svg" alt="">
+                                    <h2> Greenfluenceenio  </h2>
+                                </a>
+                                <div class="ezs-trust-client">
+                                    <h4 class="ezs-trust-client-title"> Many satisfied customers trust us</h4>
+                                    <p class="ezs-trust-client-txt">Active users visit us every month: &nbsp; 41321&nbsp;Thd</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </footer>
+
+
+
+
+        
+
+        
+
+</body>
+</html>
